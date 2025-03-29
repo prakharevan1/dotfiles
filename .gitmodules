@@ -1,3 +1,6 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/prakharevan1/nvim_config_arch.git
+[submodule "Documents/programming/learn-to-code-with-rust"]
+	path = Documents/programming/learn-to-code-with-rust
+	url = https://github.com/prakharevan1/rust_course.git

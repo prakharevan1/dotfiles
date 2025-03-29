@@ -20,7 +20,9 @@ Thumbs.db
 
 # Ignore personal stuff
 Desktop/
-Documents/
+Documents/programming/projects
+Documents/programming/rust_course
+Documents/programming/todo.md
 Downloads/
 Music/
 Pictures/

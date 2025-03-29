@@ -29,3 +29,40 @@ Videos/
 
 # Ignore only the lazy directory inside .local/share/nvim
 .local/share/nvim/lazy/
+
+# Ignore Neovim-related files
+.local/share/nvim/blink/cmp/fuzzy.db/
+.local/share/nvim/mason/
+.local/share/nvim/telescope_history
+.local/state/nvim/
+.jsregexp
+
+# Ignore system-specific logs and cache files
+*.log
+*.mdb
+
+# Development environment tools
+.cargo/
+.pyenv/
+.rbenv/
+.rustup/
+
+# System-specific files
+.viminfo
+.wget-hsts
+codelldb-linux-x64.vsix
+jsregexp
+
+# Ignore Neovim plugin data (Lazy, Mason, etc.)
+.local/share/nvim/lazy/
+.local/share/nvim/mason/
+.local/share/nvim/telescope_history
+
+
+# Ignore Neovim session and shada files
+.local/state/nvim/shada/
+.local/state/nvim/lazy/
+.local/state/nvim/mason-registry-update
+
+# Ignore logs
+.local/share/nvim/mason/packages/*/libexec/log/

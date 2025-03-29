@@ -1,3 +1,4 @@
+
 # Ignore system files
 *.swp
 .DS_Store
@@ -51,7 +52,7 @@ Videos/
 .viminfo
 .wget-hsts
 codelldb-linux-x64.vsix
-jsregexp
+jsregexp/
 
 # Ignore Neovim plugin data (Lazy, Mason, etc.)
 .local/share/nvim/lazy/
@@ -66,3 +67,5 @@ jsregexp
 
 # Ignore logs
 .local/share/nvim/mason/packages/*/libexec/log/
+.bash_history
+

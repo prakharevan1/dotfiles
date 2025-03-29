@@ -1,0 +1,7 @@
+ERR 2025-03-13T17:51:43.270 ?.283      terminfo_start:456: uv_tty_set_mode failed: i/o error
+ERR 2025-03-20T19:10:33.306 ?.23280    terminfo_start:445: uv_tty_init failed: invalid argument
+ERR 2025-03-20T19:10:33.306 ?.23280    flush_buf:2506: uv_write failed: bad file descriptor
+ERR 2025-03-20T19:10:33.307 ?.23280    flush_buf:2506: uv_write failed: bad file descriptor
+ERR 2025-03-20T19:10:33.307 ?.23280    flush_buf:2506: uv_write failed: bad file descriptor
+ERR 2025-03-20T19:10:33.307 ?.23280    flush_buf:2506: uv_write failed: bad file descriptor
+ERR 2025-03-20T19:10:33.308 ?.23280    tui_terminal_stop:546: TUI already stopped (race?)

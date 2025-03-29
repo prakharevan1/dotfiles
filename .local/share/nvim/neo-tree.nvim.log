@@ -1,0 +1,10 @@
+[INFO  Thu 13 Mar 2025 08:02:23 AM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:623: Renamed mini-cmp.lua successfully
+[INFO  Thu 13 Mar 2025 07:18:32 PM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:623: Renamed vs_code_theme.lua successfully
+[INFO  Thu 13 Mar 2025 08:05:05 PM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:623: Renamed tokyo_night.lua successfully
+[INFO  Fri 14 Mar 2025 09:37:55 PM PDT] ...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:218: Copied cord.lua to clipboard
+[ERROR Sat 15 Mar 2025 08:59:09 PM PDT] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:404: Error opening dir: ENOENT: no such file or directory: /home/evandagur/Documents/programming/learn-to-code-with-rust/variables-and-mutability/target
+[INFO  Mon 17 Mar 2025 08:49:53 PM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:652: Renamed catppuccin.lua successfully
+[INFO  Mon 17 Mar 2025 08:56:42 PM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:652: Renamed tokyo_night.lua successfully
+[ERROR Mon 17 Mar 2025 09:28:15 PM PDT] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:830: Error opening file: vim/_editor.lua:0: nvim_exec2(): Vim(edit):E325: ATTENTION
+[INFO  Sun 23 Mar 2025 11:34:18 AM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:652: Renamed colorscheme-overrides.lua successfully
+[ERROR Sun 23 Mar 2025 07:31:13 PM PDT] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:830: Error opening file: vim/_editor.lua:0: nvim_exec2(): Vim(edit):E325: ATTENTION

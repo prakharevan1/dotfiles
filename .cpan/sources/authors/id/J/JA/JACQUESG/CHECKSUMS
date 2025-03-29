@@ -1,0 +1,770 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Jan 15 22:52:55 2023 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Archive-Raw-0.01.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '2bad440a8cef43f1b59f9cc977483453',
+    'mtime' => '2019-12-13',
+    'sha256' => '38283454d96b5e6c27677e317105e06b94cafb873ef637a96d22d6c56040697b',
+    'size' => 15591
+  },
+  'Archive-Raw-0.01.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'aeb6bd8c4828318c2cd3344722c4d9b1',
+    'md5-ungz' => '18aa0bb1be54e66a8dba46cd38a53594',
+    'mtime' => '2019-12-13',
+    'sha256' => '96c81c7ce0aca0267041cb72c6b5fb70a05a374da85a869b238f75e42b1ac144',
+    'sha256-ungz' => '20ec90ce1b31e1c496385e93807ab564ac564fd91547b7aa3589583bb4a39a87',
+    'size' => 75373
+  },
+  'Archive-Raw-0.02.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '0e0a56beadf7d4e219aa961179eb39df',
+    'mtime' => '2019-12-13',
+    'sha256' => 'ac692cc13acf4581aa108c4d3d74d8a8f6d32e9975f2b99d4da295481fdaa861',
+    'size' => 15593
+  },
+  'Archive-Raw-0.02.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'efedbe1532554b2fec6d6c405bfbaa03',
+    'md5-ungz' => '92ec059f65736e58c880b076e4a334b2',
+    'mtime' => '2019-12-13',
+    'sha256' => 'bbbfb977a7779ef4e87d5d956f6b9b2e73d1fd466421b667112a3e2c7abf95a6',
+    'sha256-ungz' => 'df3ab7ac8a50dae690140d2e111035d6cf3aa129de2087db8f5a014727ccdcdb',
+    'size' => 75413
+  },
+  'Archive-Raw-0.03.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'fc3887b54bfaf58fbf9d664bbecda2be',
+    'mtime' => '2020-07-03',
+    'sha256' => 'f1f48977a8f0dc7f0dad513a9154b62fae316f223b9831cf9eccbc7b3153b4e3',
+    'size' => 15690
+  },
+  'Archive-Raw-0.03.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '5bd5d061ab8f9e3dd1fc49e5c2720c86',
+    'md5-ungz' => 'de745e65cb84b9ed8371f0f06e649e4a',
+    'mtime' => '2020-07-03',
+    'sha256' => 'cdccc32e4f9a8ae775c9744b65241f713ddc957ee72ba9ca05e98a387fab6533',
+    'sha256-ungz' => 'b125a598c2bd6e9f00f221ecc08b5c5c45b833d793335589c8d45c8cdd94b300',
+    'size' => 75460
+  },
+  'Dist-Zilla-PluginBundle-Author-JACQUESG-0.02.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'eec30fd55b78f5a20352ed8b0f25b8e7',
+    'mtime' => '2020-04-19',
+    'sha256' => '63e6dbd80dcbcde2c1849114ccfa4ac25c811b4fc7003b484f56c72b07ffdac0',
+    'size' => 12933
+  },
+  'Dist-Zilla-PluginBundle-Author-JACQUESG-0.02.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '9cb28e550ddd444f0cbf40fb27c6c26f',
+    'md5-ungz' => 'd2150143e595f9d4bdba4fe900c76828',
+    'mtime' => '2020-04-19',
+    'sha256' => '68f9e5d6da1ab74ba0f9b7b567f45df27463d0507f56b6734302c592b545357d',
+    'sha256-ungz' => 'be4ec7fb6dcee6292ead3321ec38f1fa36b2bf39ddad1cc05065a5674db36760',
+    'size' => 13845
+  },
+  'FIDO-Raw-0.01.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '6be456e9d6740c607034c298386f23bf',
+    'mtime' => '2020-05-04',
+    'sha256' => '484a9be787b57ab66808c6914e1d8ff06388085a705c958b8e773b8849dd3517',
+    'size' => 15662
+  },
+  'FIDO-Raw-0.01.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '03ea70a483bd6e7e5e4879d41b035d5f',
+    'md5-ungz' => 'd4df41c3aba0d6fc41cca9d79b564f4d',
+    'mtime' => '2020-05-04',
+    'sha256' => 'd93a966de379b8cd516e842929d364b3f79f2fe24cebaa43d378cc5bda30ec06',
+    'sha256-ungz' => '998983e3a589c5b36a0570ea5acb3687f5de6c0dc63e6812c5ade779b94d04ca',
+    'size' => 184076
+  },
+  'FIDO-Raw-0.02.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '8b161696bd47bba0dcb181b7923da96d',
+    'mtime' => '2020-05-05',
+    'sha256' => 'd59abe54f70f6a090504bf947cbd464c7b1513a8c6aa2d876ff57ea57f0b771c',
+    'size' => 15664
+  },
+  'FIDO-Raw-0.02.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'e629ed6c3ee1b9d76dd00f44b7b39d5c',
+    'md5-ungz' => '0fb6b8e5ef70b2d9aa1f7dabf2a6f55f',
+    'mtime' => '2020-05-05',
+    'sha256' => '59389e523066e50d88932ea47f083c6d0baa26f43da52fc705fbf21b7c8cd4e8',
+    'sha256-ungz' => '15663826eb87343c2bf51e55f8db33914700d05dafff3703927317b061a7bbb8',
+    'size' => 297447
+  },
+  'FIDO-Raw-0.03.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '5e121f78bbd08f1a94aab67795db2be2',
+    'mtime' => '2020-05-06',
+    'sha256' => '8789b3157330ac2fff84c5a84dbf553f6de4a1b0fcea12828a2e0af7a14edbe0',
+    'size' => 15664
+  },
+  'FIDO-Raw-0.03.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '3caeef6869442a443beb641b95512ecc',
+    'md5-ungz' => '0c8f545d7ffdb13f6b37926b08c7c70c',
+    'mtime' => '2020-05-06',
+    'sha256' => '536056d8f3190af97a341f7f7506a676ed1e4e17360ec0da9ee7ba72c4f61c48',
+    'sha256-ungz' => '725e201b6602739b66b44fc5328a80ef9a82eb6077668e0a37e8769b3e9ac7a5',
+    'size' => 297641
+  },
+  'FIDO-Raw-0.04.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '52aca7aefcf792f39b26efc9da259d9b',
+    'mtime' => '2020-09-01',
+    'sha256' => '024751d85cf43e87c5c3aa9e6b64a962b70d224e23e24a3841f1f957d53fdc5a',
+    'size' => 15664
+  },
+  'FIDO-Raw-0.04.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'a3bf16ec9af428e4f1f7916824b515f9',
+    'md5-ungz' => 'cc9eacf9753a68261173ef025b623801',
+    'mtime' => '2020-09-01',
+    'sha256' => 'da3aea96906baea98409fcc873c713c91068e54e9ef5329307b33f3d0fc988d5',
+    'sha256-ungz' => '682d95f9c942d1b1d5cb0baf7a1423567fae9067ceeda485ed2a7afff8233fad',
+    'size' => 303081
+  },
+  'FIDO-Raw-0.05.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '51b9b61481e2d3a2e4648a34815de880',
+    'mtime' => '2020-09-03',
+    'sha256' => '46783349294cde44eeb8311e7dc51d61561efa50749a7134b472e723b294637d',
+    'size' => 15664
+  },
+  'FIDO-Raw-0.05.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '1d9c8feb39a8c94776802dff51db9dbb',
+    'md5-ungz' => '5cd59be18dc1bfb0bbb8e0881b1135c7',
+    'mtime' => '2020-09-03',
+    'sha256' => 'ab339440bd14dc62c5332cabe5f25c8775e03137890c82b1373478e291b54680',
+    'sha256-ungz' => '3ac466d723891fcf45e639cd74fb82f83d6cb3bcb054ee6c9bdfe5ae42540b2d',
+    'size' => 303229
+  },
+  'FIDO-Raw-0.06.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '47fd37a2a237b8d6cc4dfd508938d718',
+    'mtime' => '2020-09-03',
+    'sha256' => 'cdb1c0077953630b39732e38a55220d515074406a2e2e2ef0d415c03a46ccfd6',
+    'size' => 15664
+  },
+  'FIDO-Raw-0.06.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '2aa13c82d40ec15b5f52f91128dc8870',
+    'md5-ungz' => '13b9683bb5c8734b32c018b24881cb6a',
+    'mtime' => '2020-09-03',
+    'sha256' => '542bf4ebced635cee53896996306de693528aa571a75130432e177bca052dadb',
+    'sha256-ungz' => '03953622670b31992ed211c8f7a218169efa0bcdfef1500f0d010ecf0b96157a',
+    'size' => 303302
+  },
+  'Git-Raw-0.75.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'a69ea3f504fc384f49cc201a9335a997',
+    'mtime' => '2018-01-25',
+    'sha256' => '77c330c16db51a145be2a51fdce9293998c2ffa04faacbd5ad82ed2454720a08',
+    'size' => 21866
+  },
+  'Git-Raw-0.75.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'e9901db29f6969f0af77ca2612629960',
+    'md5-ungz' => 'e541c15231bdb258e76e2c843318ea9e',
+    'mtime' => '2018-01-25',
+    'sha256' => 'b7873df7633aa1fca790f833ed6c4f10af73bb4ae8d8f8c77f38d3b96a74f31a',
+    'sha256-ungz' => '402ab4b5a6b9ed17b8fa11d73c2600a7756ed9c171fb7e29a38c3d6e1fa3f27a',
+    'size' => 1265875
+  },
+  'Git-Raw-0.76.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '82b0bdb4cd2c7ca1df20de75b344cdd8',
+    'mtime' => '2018-03-08',
+    'sha256' => '75d035dcb01c5c68ed0cf0740ff20ddd6a0e335fed9843c713107b87475204bd',
+    'size' => 21979
+  },
+  'Git-Raw-0.76.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '45ea1aac249a678211e7584369029736',
+    'md5-ungz' => 'af8ba3ed2219f3fcc3be031524567cef',
+    'mtime' => '2018-03-08',
+    'sha256' => '36a8be5695a0461f9869c144711a1151b3e8a8f735afc20461823c2a177a76c5',
+    'sha256-ungz' => '7b69731b4a5102b800006238c62e302dcf83470840b4b6cf18d8fcc1890a3fb7',
+    'size' => 1294144
+  },
+  'Git-Raw-0.77.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'f005d179c7b73441c4c5948bf43bc148',
+    'mtime' => '2018-03-09',
+    'sha256' => 'aee954be7fd1156163fadeb3fcd0a64dc175f8e25c4b0e489204fde22eccebbe',
+    'size' => 21965
+  },
+  'Git-Raw-0.77.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'ff1fee37ca99367b2823690fed844ef6',
+    'md5-ungz' => 'e148ec733fa32a8a842b51a85205d6e0',
+    'mtime' => '2018-03-09',
+    'sha256' => 'e94ce820d0a7243aec20380b9d365d12f98458c4723f2fe4873837e95da4f8cc',
+    'sha256-ungz' => '33e1facbdd11556438e418f92ea1b0d745a5bc9ce8eff5ef535939a69c51ad81',
+    'size' => 1292681
+  },
+  'Git-Raw-0.78.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '6f387428d00cb45944f109d2f45d2718',
+    'mtime' => '2018-03-09',
+    'sha256' => '4a5ad6fb42689e064d4cd88f56a626d80689dbec3f75229a2a76cfb035210f1c',
+    'size' => 21965
+  },
+  'Git-Raw-0.78.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'fe3b0f3499aa7903d1c901a31fed9938',
+    'md5-ungz' => 'a02f66f633a330074ad2bf316f47c684',
+    'mtime' => '2018-03-09',
+    'sha256' => '69b0602f1ba5b8190e936871a5ddfc21a238dad639a140bbeee9737cd65644ec',
+    'sha256-ungz' => '0be54195147f784c5a6990bdc4cc2c0552d87cbeee49f5ee0539b040ff099ea6',
+    'size' => 1292793
+  },
+  'Git-Raw-0.79.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '70443c958c76542ba1bd90c2f29bde5c',
+    'mtime' => '2018-03-23',
+    'sha256' => '3ea5db1e4623afb912e913ea30496711a3c4a2cf64e4be946a17c7dcbeccc289',
+    'size' => 21979
+  },
+  'Git-Raw-0.79.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '38662afa1efe506b49e3ac70a50951ae',
+    'md5-ungz' => '42b939ba35d9cf041e914feaad3f5c1c',
+    'mtime' => '2018-03-23',
+    'sha256' => '7dcfed6dfbc5793cc9b96a4ff8492f50efca8dc261a390ddedc361b0a50dd4d5',
+    'sha256-ungz' => '9922e375428011702877083952bceb6271ab9db295cc741d887ddc93a4846dd4',
+    'size' => 1294869
+  },
+  'Git-Raw-0.80.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '7e2cc8b3a9357d1dd52b0da5f62a7ed1',
+    'mtime' => '2018-06-17',
+    'sha256' => 'c2095c86be15f69deed6534814d48cb23bc3fb46209a444a86eb76ff99dba27a',
+    'size' => 21979
+  },
+  'Git-Raw-0.80.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '9439e339d2b90a13c3dc3fadab119457',
+    'md5-ungz' => '61783ba9f9765ae7a86ac8406f1742cc',
+    'mtime' => '2018-06-17',
+    'sha256' => '83f6fb450dff7aac74df50ecd556726c3ffdd75c4689dcbbeb8d1fc61853752e',
+    'sha256-ungz' => 'e531b8e2a27014fd95631688fdff050b001749b8e36cf8bfebad507f9f3e4114',
+    'size' => 1288346
+  },
+  'Git-Raw-0.81.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'ddee325fe2641dce2987b1aaa7bf415b',
+    'mtime' => '2018-06-27',
+    'sha256' => '2187682c44f522d30fc75a58c58400fbbb467bffe24465d005d6bc859e61427c',
+    'size' => 21979
+  },
+  'Git-Raw-0.81.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '06dec64a5e684958c3cd71bb30872ddf',
+    'md5-ungz' => '330c7c00407be1744a84ba73f1eee258',
+    'mtime' => '2018-06-27',
+    'sha256' => 'a04ba66b29bad22c5c2019d517b3b303401c3da9290b4890f7f9b8fdf28472dd',
+    'sha256-ungz' => '8fd6556b71b43b32d6d05be491207bb595ad5b0ec0f3c78992cf9769a17e35c1',
+    'size' => 1293305
+  },
+  'Git-Raw-0.82.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'ee721eb161eab58982335f3da0df4bcd',
+    'mtime' => '2018-12-12',
+    'sha256' => '30f94af1b12414294f83c75f2cfcb703b59e26a964eb3705ac64cba079b6587c',
+    'size' => 22155
+  },
+  'Git-Raw-0.82.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'cb2168690f7ab1f295e7509b51989143',
+    'md5-ungz' => '5226d3d9552f68080e1619aeb634422d',
+    'mtime' => '2018-12-12',
+    'sha256' => '474a74a82a8174b83ebcd703fb507a03d798ba16a1fd49c8b46918cecace543f',
+    'sha256-ungz' => '54c2414e8642185d718674e489cdca3c83f29feb22486ed817eefdc2a510103e',
+    'size' => 1392645
+  },
+  'Git-Raw-0.83.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '2fb4aae4dc88ecdbebe1f7b8c3b2cf34',
+    'mtime' => '2019-05-20',
+    'sha256' => '5e782d69b53d1b040084dd54efa56d789e19a8a8d03750ca42df304a82f0723c',
+    'size' => 22187
+  },
+  'Git-Raw-0.83.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'f8dc40f176446780b269a5303ca80c3f',
+    'md5-ungz' => 'c0ba00daf77f92a2f15e614e63712f2b',
+    'mtime' => '2019-05-20',
+    'sha256' => '83f9d02bb7e5d1522799a7635c933c7257152c6744dadcdb25f9b4d53de6cb81',
+    'sha256-ungz' => '6b94074f348a6c0451cfcc468b4b6b1eee884e2df510638c34cedef25914ecb9',
+    'size' => 1397584
+  },
+  'Git-Raw-0.84.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'c91b418acc9ab624387971640012dbab',
+    'mtime' => '2019-08-19',
+    'sha256' => '888794a8716d00bd7ba2751397783251e84e95fe10dc3917d0fcaeeadfce81df',
+    'size' => 22302
+  },
+  'Git-Raw-0.84.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '3672e6ef30a8d006d920994cbf255404',
+    'md5-ungz' => '20560fb2774ee3f2aedc4d12e33f1f21',
+    'mtime' => '2019-08-19',
+    'sha256' => '235c3eba9dfbda0479816721f866602f3193d566e11312fbe38e587c8440af35',
+    'sha256-ungz' => '6ae8019ea711eadb939d98eb4f2647db8a8d02c542ad3f8f1631c48f35c75b0d',
+    'size' => 1399888
+  },
+  'Git-Raw-0.85.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'fe869a36c0f73d4f4b4440fb924ccf0e',
+    'mtime' => '2020-04-19',
+    'sha256' => 'd694c3c10db033cada03c06951e1f3001a237d34a15bea9527a8ee1184cb671b',
+    'size' => 22198
+  },
+  'Git-Raw-0.85.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'de8db2ca082a5cdbfb16235bf60e491b',
+    'md5-ungz' => '9eadf6a80cf47028037264790933a79c',
+    'mtime' => '2020-04-19',
+    'sha256' => 'bdf630926b219e846817b21ce21eb3a104e58699b612014c027a0f9e98c3bb45',
+    'sha256-ungz' => '22579fa88159ce1df5541b616217cca9cc149659e4c6d9218d9ba6c254131d4d',
+    'size' => 1682511
+  },
+  'Git-Raw-0.86.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'e895391d2059528bf98c533b16488e58',
+    'mtime' => '2020-04-25',
+    'sha256' => 'c4bf0df96c78a23b725cee3f2a316d6224712255ab2e4fb37e49e0aab68341cf',
+    'size' => 22399
+  },
+  'Git-Raw-0.86.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '82e537c92aa8e9008986fe6ca9bf0a48',
+    'md5-ungz' => 'a95845f6c400432e83697d19842d5c53',
+    'mtime' => '2020-04-25',
+    'sha256' => 'f8c9d7589bcde504fe10a91e1c7fd869df85e831f218cd3fe5b041e1d1eb44df',
+    'sha256-ungz' => '2ffab37cb12c37d588e5453d35667033bb8fb18ebf7efed9092cf1831812ef22',
+    'size' => 1683190
+  },
+  'Git-Raw-0.87.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '0438e88b62974792b1f0c3d7292b920a',
+    'mtime' => '2020-08-30',
+    'sha256' => '36a4ef91d844efc41e021d186ad5e25b2af2194df5272261a527d61e02528b53',
+    'size' => 22399
+  },
+  'Git-Raw-0.87.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'ae62dabba3fee83993b488f6a4e5566d',
+    'md5-ungz' => '3d1177e62552126bc5c5c31b6c51c53f',
+    'mtime' => '2020-08-30',
+    'sha256' => '44e23a0a26f1f08e69445ee127f624add95b66616552416c1e176a047017c360',
+    'sha256-ungz' => 'c5767b16c5be7b9662c8dd751c2b1ed41f76b9365345834a2b9b9c1576d29a3c',
+    'size' => 1687044
+  },
+  'Git-Raw-0.88.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '0041a036a434189e33d77d0b8710985b',
+    'mtime' => '2021-08-08',
+    'sha256' => 'a6e65c29a0db25f36db36b089c7edb66890b48ba712cd5541fbcfc8376e5e2cc',
+    'size' => 22424
+  },
+  'Git-Raw-0.88.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'aa6d7b42356674332f4179a3c131246c',
+    'md5-ungz' => '5f3f412c07781d9609cf3868e836cf90',
+    'mtime' => '2021-08-08',
+    'sha256' => '7f0510bd50cd400d499c5a860e1c7dc835db2750128fdcb6a384d06c6e9d900d',
+    'sha256-ungz' => '96239797d8409eb95dbbf9eae0ac741c693e9f04b83ca942e44a6edd02661155',
+    'size' => 1660418
+  },
+  'Git-Raw-0.89.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'b8d02040affba24d1ff59efeae4bd22c',
+    'mtime' => '2022-10-23',
+    'sha256' => '65920b15eab2aa60bc3942f99062c9f0e880015472f60956ab12127a53f46456',
+    'size' => 22432
+  },
+  'Git-Raw-0.89.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '6a8bf520a9570b3e84f5a34cd78fc786',
+    'md5-ungz' => 'ee4dafdd4ed6c96a3ce25c4592ad5961',
+    'mtime' => '2022-10-23',
+    'sha256' => '15992deaf96dc9f649eaac7b034418efd42ad9d18af063fd1142633e0fc701ac',
+    'sha256-ungz' => '7ac1504927a89415481189bfca70cf5275f45e90f284cfb4118cd461b7bef4a7',
+    'size' => 1946306
+  },
+  'Git-Raw-0.90.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '0c0e1370a9092b424e80c07946f6956a',
+    'mtime' => '2022-10-27',
+    'sha256' => '857aacb9fb3c4b6af0a4957351c485fb2c2414814fe0947d157ba71c67792f6b',
+    'size' => 22432
+  },
+  'Git-Raw-0.90.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '1ef1bd947245e86c60458a22fbf097b7',
+    'md5-ungz' => 'd73211d1ca064e3028f3b417f3abb783',
+    'mtime' => '2022-10-27',
+    'sha256' => '2d4e08b2912d5e497caf09e64d79123fedb13de63bb8de3800c0dc184b30424e',
+    'sha256-ungz' => 'fd6727820d92068b2d92edb7004397351fa790e5ddd8d237079bcb9a859d2062',
+    'size' => 1946442
+  },
+  'MsgPack-Raw-0.01.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '569b777924a7f7f4ddf7647ef1a5fe9f',
+    'mtime' => '2019-11-17',
+    'sha256' => '0386d85730be6bd9ae3d7df381e443e57a0a8ccbd0bac1ab1cc4481ae6930f28',
+    'size' => 15343
+  },
+  'MsgPack-Raw-0.01.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '2a3933da557ddc1a3b4319fde4968ad8',
+    'md5-ungz' => 'fc4194030939dfe10981e229a6f3e691',
+    'mtime' => '2019-11-17',
+    'sha256' => '6903101fb92bd1eccaefe3a1b96e5e065615a4f1ee8ce62649b1dc72c0e93177',
+    'sha256-ungz' => 'c03950c94fed720002213e84a50c8b5780dc677288d387f978b79306098cc574',
+    'size' => 489599
+  },
+  'MsgPack-Raw-0.02.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'ded2153fbdffb13d34390525a388e5f5',
+    'mtime' => '2019-11-17',
+    'sha256' => 'c043f5b2e5bf12d611b48ddbd8f40156206d3b306c40a591bea46a957ec85d10',
+    'size' => 15345
+  },
+  'MsgPack-Raw-0.02.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '31413fe80d5444af261eeb25a5f88255',
+    'md5-ungz' => '009d74edd7703ff8abe77fa93bcd8884',
+    'mtime' => '2019-11-17',
+    'sha256' => '0ce3e5afb4f0a72e7cff3390b172f9084494ddcc41770ab786c5f1e97cad7720',
+    'sha256-ungz' => 'a86c8265a66d381b542062fdbfa4ac589fdf2675bea0de110aaa348f8a5fdc32',
+    'size' => 131640
+  },
+  'MsgPack-Raw-0.03.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '10e372e2b57d136fd81b485b1505e753',
+    'mtime' => '2019-11-18',
+    'sha256' => '6f7027251594b7905564ab040aa046b21f60b0c2f032fc18b97cc787ff739a83',
+    'size' => 15345
+  },
+  'MsgPack-Raw-0.03.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'a2d56374c5c95a194d6e2a6d9b5a5a7a',
+    'md5-ungz' => '53f2a1aa80290cb116d9afd7fe66fed1',
+    'mtime' => '2019-11-18',
+    'sha256' => '41490beda61d502d813d0d89b379598cab820025e2e71f505a2c79ecf596030f',
+    'sha256-ungz' => '7cccff2cbe6588123018f59099a1c3e81e38b1a7bb9067b1f5ef6b962599edbf',
+    'size' => 131653
+  },
+  'MsgPack-Raw-0.04.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'b7db24afb1062c52cb63110144a4d9b0',
+    'mtime' => '2019-11-21',
+    'sha256' => '2562981191c9de20f563cb8296ba2ea793f67c9a4b1157c6276e17007901226b',
+    'size' => 15345
+  },
+  'MsgPack-Raw-0.04.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'b8cd36a822ebdaec62e3734eee90b051',
+    'md5-ungz' => 'f860d33ef7ca4973a64405e70deb5435',
+    'mtime' => '2019-11-21',
+    'sha256' => 'a75a05885090053575542e4f68616b06acff77df745caf3aaaf3aa9c7303bb27',
+    'sha256-ungz' => '970d23a765ef1227d3aa26d3cacb36d6b62b386e581241f423014164ba233eee',
+    'size' => 131856
+  },
+  'MsgPack-Raw-0.05.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '1791b86bd4aeebffd3088ddda9f25972',
+    'mtime' => '2019-11-23',
+    'sha256' => 'fce8fa6de4ad2ddb17ac8a2513994319b2c87863b4fa1c5eb49593513849acf7',
+    'size' => 15345
+  },
+  'MsgPack-Raw-0.05.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'da23982a8473793dc1819d709f689ac5',
+    'md5-ungz' => 'ebf4876fa89f33d23674f6208ce9b074',
+    'mtime' => '2019-11-23',
+    'sha256' => '8559e2b64cd98d99abc666edf2a4c8724c9534612616af11f4eb0bbd0d422dac',
+    'sha256-ungz' => 'eb74f634b87eba35ce610cfca3da2bb1c74b2bf57ff601caf1ee51acd0279107',
+    'size' => 131911
+  },
+  'Neovim-Ext-0.01.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '2e449aecad731e953f1ff5c8f1e01561',
+    'mtime' => '2019-12-22',
+    'sha256' => '48f49632eb92ddf195d03532099693203b76694d8d79dda9627cd779b6cbabe2',
+    'size' => 18357
+  },
+  'Neovim-Ext-0.01.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'be3e7eda1b88ab5337727f008f1b9740',
+    'md5-ungz' => '958ee134324adc50b92df55867cfd729',
+    'mtime' => '2019-12-22',
+    'sha256' => 'a86db243b4619e488273181b0aa2a957a17680de69d541e4cdf3eb0d6541d394',
+    'sha256-ungz' => 'e8810ca01319fc63f5ff04a78c1086bb7189bcc03f50025b430acc27d406f574',
+    'size' => 35491
+  },
+  'Neovim-Ext-0.02.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '0c5762da967461f449e5562aadf6f804',
+    'mtime' => '2019-12-24',
+    'sha256' => 'acc0c146e68c7f3c9fc679e05abbae2810098aa91b463beb3b8d9571ee34b601',
+    'size' => 18391
+  },
+  'Neovim-Ext-0.02.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '046ba7021755ca87a42246eb1413e1b0',
+    'md5-ungz' => '3935c2b0d938a8aa6c402476bd537dda',
+    'mtime' => '2019-12-24',
+    'sha256' => '9a9f75cf453aff03e2ea1da4e23049b1ea8a73714bd91eb912d0d9926b304f7d',
+    'sha256-ungz' => 'a250fba2e914bc25ed52693f4d98e1d5d44c54dc85f725600f6a4ae7775964df',
+    'size' => 35641
+  },
+  'Neovim-Ext-0.03.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'ea7da38caeff06bbfc7ce5f32a7e7b6b',
+    'mtime' => '2020-08-29',
+    'sha256' => '26090bf1e5a5365b58b104427d7246c151a16836ecbb6ad7b1874b0170e62e2d',
+    'size' => 18987
+  },
+  'Neovim-Ext-0.03.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '4c9fd85e0aca7488249c19eeced5f83a',
+    'md5-ungz' => '4501f8937f8239f284176fe22e025eb2',
+    'mtime' => '2020-08-29',
+    'sha256' => 'c160b4528d69f2630c13088b8b950e61c1005b9ea15ef7f117aba37d095bdc2f',
+    'sha256-ungz' => '7be19efb53737578d31948e910b3ff0b199fb7fb9862ac77ec2ed15bbd77871b',
+    'size' => 38168
+  },
+  'Neovim-Ext-0.04.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '492809284705e1627bcb6789d1dda308',
+    'mtime' => '2020-08-30',
+    'sha256' => '71371966e3d9dbb5cbb54ca800a3b087fb4c6819a199fddf20c447a1ecadb76c',
+    'size' => 19411
+  },
+  'Neovim-Ext-0.04.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '1afc457b7546bb8941cf58e256f8a025',
+    'md5-ungz' => '95afbaa222c81e0cf2a4c6f5338df57a',
+    'mtime' => '2020-08-30',
+    'sha256' => 'db8e20128592705a1445c3b6a2d8b8660f4770cc37c50d02f4a35dfe3b5ac0e1',
+    'sha256-ungz' => '15dc66485ffefb168f4bfb432c3eee384e81808fd37ab1a4ac583b4696a9cc6a',
+    'size' => 41819
+  },
+  'Neovim-Ext-0.05.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'bee86e815516cb751bc7a9ee30bf18d4',
+    'mtime' => '2020-09-01',
+    'sha256' => 'dbf2cf2ff33ed7f499b073db65526f5854173cc5e279a65c7aa4b35fc1beb311',
+    'size' => 19478
+  },
+  'Neovim-Ext-0.05.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '495b910cb15f3ad2607f5c75dfa21074',
+    'md5-ungz' => 'c4d7ff010fe46efbbfb58892af7761d7',
+    'mtime' => '2020-09-01',
+    'sha256' => '9f3d91b040ed218b4d9523708c680533b33b4e81efcaf3e6c01ae51da2bfdd2c',
+    'sha256-ungz' => '831bc7e16d9a5a1375713e688e02113304fa739aa7f2cfb258fe2ec495829983',
+    'size' => 40873
+  },
+  'Neovim-Ext-0.06.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '04c107dce4981b726715f523ecf9f289',
+    'mtime' => '2023-01-15',
+    'sha256' => 'bd7371ff5ed11a84932b4bd0ff787af2a028be22f4cce8c46eedb7fb17b4f489',
+    'size' => 19511
+  },
+  'Neovim-Ext-0.06.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '4f29321471b5dde1c51b5b61b923a662',
+    'md5-ungz' => 'a1624ae97ea690cb9edc592d5b29cc78',
+    'mtime' => '2023-01-15',
+    'sha256' => '6d2ceb3062c96737dba556cb20463130fc4006871b25b7c4f66cd3819d4504b8',
+    'sha256-ungz' => '009601f404d85c2e224893d3d30ad91a9f134568dc65a9768fd798bee2ebf6ec',
+    'size' => 40837
+  },
+  'ZMQ-Raw-0.30.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '5af20d71b48366406f79f8685775a252',
+    'md5-ungz' => 'f0ab611cbae6ae714dea7bd29d1dcc52',
+    'mtime' => '2019-03-15',
+    'sha256' => '91d0de0e05e7e4597b62eccc11cb4e8b7d05b644652afcb379802a5d98d36dd8',
+    'sha256-ungz' => '42a7384a93c0f45b6ace407b4e530133524061c006b16adc50a1f07fcfb814be',
+    'size' => 540301
+  },
+  'ZMQ-Raw-0.31.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '360ee2533433d1d1cfdac817894ac774',
+    'mtime' => '2019-03-19',
+    'sha256' => 'dd228caef17abd1f42fb044c4c49f00e6d69053bfba161708bc2530c4317e18d',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.31.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '3983bb9a2d9b19dbbb2a8fb70860947a',
+    'md5-ungz' => '129cb7f6e1c29e0dab4cffee67ba3309',
+    'mtime' => '2019-03-19',
+    'sha256' => 'd7064c3ec71ab7c30c97c66fcddaf52eb6449c980c4af0302f6a55f77d11bda1',
+    'sha256-ungz' => '47154169cccc7f1245d8140a99be49d5f9ed055f4c477210931939e1b4b2b55b',
+    'size' => 540402
+  },
+  'ZMQ-Raw-0.32.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '37b43b0bf4ff3412d89a418ed54cb9ff',
+    'mtime' => '2019-03-23',
+    'sha256' => '44b2cab89b0e56f6af83490f5f9fff88f2b28ecd7810f30dc17ab90e9941ad9c',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.32.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '518c0b09bd50f51f55f960e9bf70157a',
+    'md5-ungz' => '488b4e1fcb0e359a3f85165f370ff3fb',
+    'mtime' => '2019-03-23',
+    'sha256' => '2d26ad6e6c46cb77aa766de4c259f8cae66efbc301cf607a2d9a9a957b5ab7a1',
+    'sha256-ungz' => '7d57e622f04c8015ebb4a9154464040b6733aa9bfd281fd9a1e5b5a16bb440bb',
+    'size' => 540559
+  },
+  'ZMQ-Raw-0.33.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '7d611d6aff15310902bacb970d183b19',
+    'mtime' => '2019-03-28',
+    'sha256' => 'a0d57ad088a2f71381035906ba01bc94f2922a63d1409e1a2c9a8ffbd40b1e5f',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.33.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'd92c0d5cc00a81ed6970515e0ae9413a',
+    'md5-ungz' => '16c1aaab07fc91b063a4185f4d401d12',
+    'mtime' => '2019-03-28',
+    'sha256' => '8a104e7ce4008bef3d27187b61af1a152cfe23e857d4db34c33431360bcfed2e',
+    'sha256-ungz' => '29c0ac1cc710e0cc231f63da3cb731a9f628e144528afc894f8b895e909d01c3',
+    'size' => 540757
+  },
+  'ZMQ-Raw-0.34.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '7fe1f000e6bf129c72e62701f4c4dabc',
+    'mtime' => '2019-03-30',
+    'sha256' => 'a7c5bfd946c5b08931e4f84769ffc1fd4d47159a16ce05618d417a72fc6e34d5',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.34.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '56232ff19fa76be2b767a782d39cc709',
+    'md5-ungz' => '6f7a8e8f69595fe6381c2aa53f382958',
+    'mtime' => '2019-03-30',
+    'sha256' => 'ac1d70cf067244db2874d23133aaaaf7e08a58bc4e040b4b2bcf5f0ec0b3ce9b',
+    'sha256-ungz' => '2294331b32d0d1a7436c6cc5112620540e49ebbc1b6656a05aefc90cee0c6500',
+    'size' => 540765
+  },
+  'ZMQ-Raw-0.35.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '673753178fd20b88f47fa89d41c9dc9d',
+    'mtime' => '2019-05-20',
+    'sha256' => '39c5b05742d685ba93645c16afda3324f5a858804523572102bd7bab4f7ff85e',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.35.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'e9e82c9749db943c3fd0a506070946ee',
+    'md5-ungz' => '6ddbea996f505d111af11f7361f325ac',
+    'mtime' => '2019-05-20',
+    'sha256' => 'a817207e6e420a78dbe046bb928e3ddaafedb15118e06604536637fd9efc35b3',
+    'sha256-ungz' => 'dedd74f9574be01047ce5fab2c33101b8ced82482874987274be0bf8f9540d53',
+    'size' => 542002
+  },
+  'ZMQ-Raw-0.36.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '846215409ec70aa9992fdc80068cafa6',
+    'mtime' => '2019-07-30',
+    'sha256' => 'ffea369173ffc125733003d6d4b65ebf71ac77f286d1a52e3a0dd0f3caec895c',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.36.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'cf279c554799d82789e616910f1e6bb5',
+    'md5-ungz' => '8823e6c2fbe50a9236bc04795973291e',
+    'mtime' => '2019-07-30',
+    'sha256' => '7465a041031751782ff72e1cadae76d506154fa55e3d57b5c4e01774703b3576',
+    'sha256-ungz' => '1b3d518861ec4336184bc495641b4966393d894974b7288ee8e3db11fca6ec0f',
+    'size' => 581909
+  },
+  'ZMQ-Raw-0.37.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '44fdd9c0c9260dc867d5780698ec07c3',
+    'mtime' => '2019-10-03',
+    'sha256' => 'e9d416fd63d1b9557973d6ca75fca710c94685975363ceb2d885991c4a7263fb',
+    'size' => 16529
+  },
+  'ZMQ-Raw-0.37.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '8825d0094dc7565495ab35e4ec9253e0',
+    'md5-ungz' => 'ad38f2a65fe69f1926235d2afe523b07',
+    'mtime' => '2019-10-03',
+    'sha256' => '19e02a8865acd4df780f0e851671f4b91eb91f1ae4e398f3db25b46563a8e503',
+    'sha256-ungz' => '174573e09aa66e86fc027e3813663fb5934aaf20dcc475f3262e71c37d6e0c12',
+    'size' => 579426
+  },
+  'ZMQ-Raw-0.38.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '2fed48b05be7e26da8c8b89021cc230e',
+    'mtime' => '2020-04-19',
+    'sha256' => 'f4e4897aafe81003a933ed89be887f1adcf848e518b75938c49967177df44d7a',
+    'size' => 16425
+  },
+  'ZMQ-Raw-0.38.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => 'c5a5afb494561674446037ad7953053f',
+    'md5-ungz' => 'bacbabe5d2fa622e92893b3a8cf861a4',
+    'mtime' => '2020-04-19',
+    'sha256' => 'f5f5413f608d22d14282c03387ce7213ca8ff96584684a3c09ee61fb27fd800e',
+    'sha256-ungz' => '29d2fd00847537bcb892694257012366bf22e936f9fcf62f3e6fe4cc6dffdb97',
+    'size' => 597132
+  },
+  'ZMQ-Raw-0.39.meta' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '1b31094ebe5e0f82e029d7bdf3141c8c',
+    'mtime' => '2020-04-25',
+    'sha256' => 'e951ebbeff84ea1a2a2d7c008998d27e2a1ee3ae4bd6ac49cb7d5f862275b5b2',
+    'size' => 16658
+  },
+  'ZMQ-Raw-0.39.tar.gz' => {
+    'cpan_path' => 'J/JA/JACQUESG',
+    'md5' => '76f06730625c76fa346c6c132f423ba1',
+    'md5-ungz' => '3b72fc1db47bebe9201c1764b0c10fbf',
+    'mtime' => '2020-04-25',
+    'sha256' => 'b1c85a103356ec5261dcf1f2f3f19de8d9da878f2e4516ef60e243dc5ba56ffc',
+    'sha256-ungz' => 'e438cfe50a76c98f9fa78509c2b839a9cd9d5dc554bbdb1304deeb30fe3740d3',
+    'size' => 597788
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJjxIPHAAoJEOJHMplI6oOAIp8P/jhvZLJzww/5FqvlYRDfotDO
+o+LgAdsHb8a4uIAd612aJ7JRt5BbyT9TpwZCSHcLzyGaFzvfKhnt3pl743aMhsdS
+Uo3VdqJ67BTycr8Rp5OkqoVfaairZAIQ9dLBgoBXcbymUft9xcz9+Y7AVG9oygzA
+sKQRrDgDnJSdYgnBlJyezJ5JBycw2rbEkfSxorL6wvnsguGQT7jBOXV5iBs+ccac
+ZTweMqwFdJ2lKJH+yApiLFrc29grxz0OkxFBDScYdYdDj1W9EIVJvrO02U3z6Pkt
+hwlXytvYZMlazhLU3GQaNNe4hjdy2whFiYjmqu1mmfsjGjHesOkAdKn2++qmjbjY
+JeuTVrQ6tLi3au9fxBRtrZJi0M6QoY2oQEu+poSdUDtIh1yEn4HyY8PImjRA9p34
+XJS93rp0bBJ+nDQoBjF1Gcyhgats/WGbG/fzEpdge0tAAKZhKX5nOl/C1rPZFUUI
+n4Zx0ApZ1GuiMNa29L6wkLhWkl2Vz0qvboi7BqeALUWJ3jmoWTxT+AqJq7o20ALf
+qrtfcVeyTRx+ASg4CLo3ukNq9Oe1JH25BZwC4iP2R4WAYEdoIoN+nKK81mKTy3Km
+RwBb4bfKyaCVfELPYoBa13+0VU3CcjjuBOxAa0Uk27xG4K5vVqwdoJgFFs6B2dvM
+m0wgx9sGVwCDViNS/1Uf
+=Loa+
+-----END PGP SIGNATURE-----

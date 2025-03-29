@@ -1,0 +1,22 @@
+=head2 Thu Mar  6 02:23:34 2025: C<Module> L<Eval::Safe|Eval::Safe>
+
+=over 4
+
+=item *
+
+C<installed into: /home/evandagur/perl5/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

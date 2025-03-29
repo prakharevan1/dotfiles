@@ -1,0 +1,192 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Nov 22 00:40:47 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Acme-Spider-0.02.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => 'c20680be0503b04b21e11ec3202adbac',
+    'mtime' => '2006-08-30',
+    'sha256' => 'bcd4e28d3f78183230f411b50f5770615ed02183f88632f586d785c7ed37800f',
+    'size' => 300
+  },
+  'Acme-Spider-0.02.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '0deec927a446faf7c72edfceb7ea681d',
+    'md5-ungz' => '6d41762a679b5271d7ec661f793ac1ca',
+    'mtime' => '2006-08-30',
+    'sha256' => '00d0a7eaf34f6dc086235186d3547047451243470464c0eb91e118db1d5feecc',
+    'sha256-ungz' => 'e686cb53ae22d35fb32f31998f18902c83801f96cd06f668cab0e5816d27a296',
+    'size' => 2190
+  },
+  'App-Hako-0.02.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '52476527f751c5fc72816d9f7ab4118b',
+    'mtime' => '2017-01-08',
+    'sha256' => 'aef12723a160d52efc92fa18dfd1ae39e6aee4deb83f684f53e854415f6d0bbf',
+    'size' => 1674
+  },
+  'App-Hako-0.02.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '245b8a682762e0006eef1ce5bd568bd6',
+    'md5-ungz' => 'e178af6e211b1b9854c85e2c5d6bbb54',
+    'mtime' => '2017-01-08',
+    'sha256' => '10500814c6864da670b3af9f3d63425e4d87e698be744067de754b8005debe25',
+    'sha256-ungz' => '69de59f226ebc65414ec9a18bb045d5355c4ec6cdadb9c68de2ec390dc7ff847',
+    'size' => 9557
+  },
+  'App-Hako-0.03.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '9cab0a9d21497917e303491102a426f3',
+    'mtime' => '2017-01-11',
+    'sha256' => '3a2612b765d4ed53316690bc4904fe82c4a0ca45ab9278f6dc700adc39a4f09d',
+    'size' => 1801
+  },
+  'App-Hako-0.03.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => 'ebf4ef29d1ac17e4b98f5a08fcf2b72b',
+    'md5-ungz' => 'fd4a06fdd8463d2342d1a7fb73406758',
+    'mtime' => '2017-01-11',
+    'sha256' => '204226589147977f2bc622a9f1e5eacb79ea8d4e3a67daf8459fde0d422da7bb',
+    'sha256-ungz' => 'a8a660dece9743aab30722139310b2f12a8aa3c3a99522983815396b936ee135',
+    'size' => 10601
+  },
+  'Attribute-Deprecated-1.04.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '45f2da8cfc0914bf875418e022918cf6',
+    'md5-ungz' => '1b20b9270a89a6205273335313158322',
+    'mtime' => '2001-06-25',
+    'sha256' => 'ffb84b69caab268a2c807e0e8e3cd77ee3acd168db2d1e501fdf55619b387c55',
+    'sha256-ungz' => 'af905a2eb198f0bec3a5b98ca6938caf5021ba82f4cb584268ce6391fa0016dd',
+    'size' => 1613
+  },
+  'Class-Accessor-0.34.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '9276599a38d3e2d4153c52516c4c032b',
+    'mtime' => '2009-09-15',
+    'sha256' => '682218248860ad1f21db542b098a67fd021e50254b2878bebabbcb8008791ee2',
+    'size' => 423
+  },
+  'Class-Accessor-0.34.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '0d9640d237a13276145f7e44b4855b89',
+    'md5-ungz' => '80189765536443b4df1a1c72db7431eb',
+    'mtime' => '2009-09-15',
+    'sha256' => 'cdb1e0cdf8380fb9b63b44c33ce5afc1068736d55ac5904bf0eaa1efc1c3cefc',
+    'sha256-ungz' => '749d3fa672482585d071cfa78692e268be77f7249f50ded67ce7660f84dc515e',
+    'size' => 12315
+  },
+  'Class-Accessor-0.51.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '06ef2ae3500294d06c81dc48bcf4c2a3',
+    'mtime' => '2017-10-22',
+    'sha256' => '8ea10ae96765e1b55d5803c7eb1dd4f9a744ed3a614d3ab21bf699a916844122',
+    'size' => 923
+  },
+  'Class-Accessor-0.51.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '1f1e5990f87cad7659b292fed7dc0407',
+    'md5-ungz' => '7db39bb5dc268b8d121a26312504b5c6',
+    'mtime' => '2017-10-22',
+    'sha256' => 'bf12a3e5de5a2c6e8a447b364f4f5a050bf74624c56e315022ae7992ff2f411c',
+    'sha256-ungz' => '646383ce5385573d7f4a1af1447424212237002575ca23512e808ec5cec05778',
+    'size' => 13013
+  },
+  'Crypt-Simple-0.06.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => 'cdea18a98593364855f27afcb8519ec0',
+    'md5-ungz' => '3c2d2aaa86bf5d5955edc973abab0cca',
+    'mtime' => '2002-09-24',
+    'sha256' => '3db6e7754eaa425ab2d958d40b62d2026b0b186cd576ee352b4c172fb52d8e17',
+    'sha256-ungz' => '37108f8a6cb30ad7d4b3e092afe8a0a77b160546fe9d99d9fc9e62055146af7c',
+    'size' => 4336
+  },
+  'Date-Simple-1.03.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '07cdc013b4f5b9c0c76757164404d0b6',
+    'md5-ungz' => '9bcd99109ea14caafa9167de637127e1',
+    'mtime' => '2001-07-17',
+    'sha256' => '57ec039dbc726d88dd1bf82360569c33b7c6aa4d2f53f9297a89eea700ae4e73',
+    'sha256-ungz' => 'dd36a107db283ca57d7661ed3b98c08aae602133d290f5b576a06a70d2432671',
+    'size' => 3802
+  },
+  'Filter-Trigraph-0.02.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '42fe72c318a80fffb077a8f6375711d6',
+    'md5-ungz' => 'c979c8ee766fd00eb35b96208dd9a951',
+    'mtime' => '2001-07-10',
+    'sha256' => 'fba3bc3d49521fed2015c594ed4425da85e7a7153253bc685a06ecb93ad5fba6',
+    'sha256-ungz' => '9198868bf830ab7b68c8d1f07f6f9c401db3eaf26e4bd731fd238e9a30e50267',
+    'size' => 1817
+  },
+  'Quantum-Usrn-1.00.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '4e11b3250ba08d225c3104f30a94bdb7',
+    'md5-ungz' => 'dff22958a69d14ea06f6eb3ed6262325',
+    'mtime' => '2001-07-10',
+    'sha256' => '47565b699821021cfdc8bcb491e388fe68b1852c8ef4edac44baab50349239e0',
+    'sha256-ungz' => '85fba2487b5db04504f7f2c5577e42d2edd83f0d33b724bb45f0a941c0a4a002',
+    'size' => 2231
+  },
+  'Time-Piece-MySQL-0.05.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => 'c560477509daeb5cb3a54784b6ed8520',
+    'mtime' => '2004-07-21',
+    'sha256' => '33bca9e343f249499bfe7f667b5f459477ba856ebb31ec58951a36c0d7e9ee3f',
+    'size' => 396
+  },
+  'Time-Piece-MySQL-0.05.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '59eb18c952f61cf2481c38c0f43c37c8',
+    'md5-ungz' => 'c6533b207da8f0ae64224ed0a347e328',
+    'mtime' => '2004-07-21',
+    'sha256' => 'a3f8b59d3ffe163def2357181fad855265277f5ae7bdfd4510e261f6561f1759',
+    'sha256-ungz' => '58503720f375ee646423a3feca880c9109feb14411a6172e372d10d3d1744298',
+    'size' => 3701
+  },
+  'Time-Piece-MySQL-0.06.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '65dbd0a0ac25eb1c2f7b0ed58eb5dfa9',
+    'mtime' => '2008-06-07',
+    'sha256' => 'b4896d873e78d3685d352aba57aa257b31d9a4d14f48373aac78747c2fb55843',
+    'size' => 503
+  },
+  'Time-Piece-MySQL-0.06.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => 'be66a577f8790c16947d8e3e5a0e65a2',
+    'md5-ungz' => '985fdea6c72a720589ce42746daffd72',
+    'mtime' => '2008-06-07',
+    'sha256' => '319601feec17fae344988a5ee91cfc6a0bcfe742af77dba254724c3268b2a60f',
+    'sha256-ungz' => 'd8eb8310cd42693712473986acfc0b55b9351f7635b2c671823372a7bfc1a624',
+    'size' => 3870
+  },
+  'UNIVERSAL-moniker-0.08.meta' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => '043b282d95a0183d2dc606256441f583',
+    'mtime' => '2004-07-21',
+    'sha256' => '514f3a3409bd2f1d80bd80a2f2ad4a8f01bad9352126de678a691233d7da3d43',
+    'size' => 304
+  },
+  'UNIVERSAL-moniker-0.08.tar.gz' => {
+    'cpan_path' => 'K/KA/KASEI',
+    'md5' => 'e59b97ccf88f9fa68c3e5c18d7059d57',
+    'md5-ungz' => 'b88a59365c858d9b0cb3fa1c225d10a4',
+    'mtime' => '2004-07-21',
+    'sha256' => '94ce27a546cd57cb52e080a8f2533a7cc2350028388582485bd1039a37871f9c',
+    'sha256-ungz' => '8ede24e598619f4070f18b0f9225a58ea98ca7ace4e9e033b4e3e948402461cf',
+    'size' => 2584
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmucPAAoJELahc5BjdgzK/5AH/1HJRAMrU5cwgKj+owbD8YpC
+hQKmF5xXte7RBV9b8ZV+RCndc8Mjt/LKQfIWu40uqCucQbCwBGJti0uKCQpeKpsj
+ewSqJ5udA5JnkUetfyTPqUAovg8m0zOn6d3Y8K6wA8J2FfvQkCfEr1RZW+sgIio0
+WpBJfrIX9+yOGFllg1iMVxfkDhx6odcfcZjAv8XE6Sx5JZGadaI0HsNxlk26R+4p
+4PsMQRARB98u6e9iUBF13O+o0Lfz844pTtrzef9FadpGs92IJJ+HSinWoReYqzP4
+sZxyoHvQ3fkDk+8F9XtEHHe3pX+gRzNYzZQO+0mtZ4V39L+UlQsjvRyNTd1tpAc=
+=bTFd
+-----END PGP SIGNATURE-----

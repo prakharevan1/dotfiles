@@ -1,0 +1,15 @@
+/home/evandagur/perl5/lib/perl5/Future.pm
+/home/evandagur/perl5/lib/perl5/Future/Exception.pm
+/home/evandagur/perl5/lib/perl5/Future/Mutex.pm
+/home/evandagur/perl5/lib/perl5/Future/PP.pm
+/home/evandagur/perl5/lib/perl5/Future/Phrasebook.pod
+/home/evandagur/perl5/lib/perl5/Future/Utils.pm
+/home/evandagur/perl5/lib/perl5/Test/Future.pm
+/home/evandagur/perl5/lib/perl5/Test/Future/Deferred.pm
+/home/evandagur/perl5/man/man3/Future.3pm
+/home/evandagur/perl5/man/man3/Future::Exception.3pm
+/home/evandagur/perl5/man/man3/Future::Mutex.3pm
+/home/evandagur/perl5/man/man3/Future::Phrasebook.3pm
+/home/evandagur/perl5/man/man3/Future::Utils.3pm
+/home/evandagur/perl5/man/man3/Test::Future.3pm
+/home/evandagur/perl5/man/man3/Test::Future::Deferred.3pm

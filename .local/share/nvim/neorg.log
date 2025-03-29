@@ -1,0 +1,4 @@
+[ERROR Sun 23 Mar 2025 02:03:00 PM PDT] ...nvim/lazy/neorg/lua/neorg/modules/core/dirman/module.lua:431: Unable to switch to workspace - "main" does not exist
+[ERROR Sun 23 Mar 2025 02:48:12 PM PDT] ...im/lazy/neorg/lua/neorg/modules/core/neorgcmd/module.lua:276: Error when executing `:Neorg workspace default 4` - too many arguments supplied! The command expects 1 argument.
+[ERROR Sun 23 Mar 2025 02:48:25 PM PDT] ...im/lazy/neorg/lua/neorg/modules/core/neorgcmd/module.lua:276: Error when executing `:Neorg workspace default home/evandagur/Documents` - too many arguments supplied! The command expects 1 argument.
+[ERROR Sun 23 Mar 2025 02:49:19 PM PDT] ...nvim/lazy/neorg/lua/neorg/modules/core/dirman/module.lua:431: Unable to switch to workspace - "main" does not exist

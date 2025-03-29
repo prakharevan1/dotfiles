@@ -1,0 +1,7 @@
+#!include_default
+
+# Avoid build files.
+^Test-Pod
+
+# Avoid Pod tests.
+t/pod[^/.]*\.t

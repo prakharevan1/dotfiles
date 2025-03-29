@@ -1,0 +1,1 @@
+{"links":{"opt":{},"bin":{"ast-grep":"node_modules\/.bin\/ast-grep","sg":"node_modules\/.bin\/sg"},"share":{}},"name":"ast-grep","schema_version":"1.1","primary_source":{"id":"pkg:npm\/%40ast-grep\/cli@0.36.2","type":"registry+v1"},"secondary_sources":[],"metrics":{"start_time":1742513637023,"completion_time":1742513641698}}

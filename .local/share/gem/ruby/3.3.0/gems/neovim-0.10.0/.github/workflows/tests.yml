@@ -1,0 +1,62 @@
+name: Tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * 0'
+jobs:
+  linux_osx:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        ruby: [ruby, head]
+    runs-on: ${{ matrix.os }}
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: Fix up git URLs
+        run: echo -e '[url "https://github.com/"]\n  insteadOf = "git://github.com/"' >> ~/.gitconfig
+      - uses: actions/checkout@v2
+        with:
+          repository: neovim/neovim-ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
+      - name: Install libfuse
+        run: sudo apt install libfuse2
+        if: matrix.os == 'ubuntu-latest'
+      - name: Install Neovim
+        run: bundle exec rake ci:download_nvim
+      - name: Run tests
+        env:
+          NVIM_EXECUTABLE: "_nvim/bin/nvim"
+        run: bundle exec rake spec
+  windows:
+    strategy:
+      fail-fast: false
+    runs-on: windows-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: Fix up git URLs
+        run: |
+          echo '[url "https://github.com/"]' >> ~/.gitconfig
+          echo '  insteadOf = "git://github.com/"' >> ~/.gitconfig
+      - uses: actions/checkout@v2
+        with:
+          repository: neovim/neovim-ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ruby
+          bundler-cache: true
+      - name: Install Neovim
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install neovim -fy --ignore-dependencies --ignore-checksums
+      - name: Run tests
+        env:
+          VIM_FLAVOR_HOME: 'D:\'
+          NVIM_EXECUTABLE: 'C:\tools\neovim\nvim-win64\bin\nvim'
+        run: bundle exec rake spec

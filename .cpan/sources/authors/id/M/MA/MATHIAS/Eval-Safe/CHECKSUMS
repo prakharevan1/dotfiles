@@ -1,0 +1,51 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun Nov 21 22:29:52 2021 GMT by CPAN::Checksums (v2.13)
+$cksum = {
+  'Eval-Safe-0.01.meta' => {
+    'cpan_path' => 'M/MA/MATHIAS/Eval-Safe',
+    'md5' => '8c039ab76c71f51247d9eca3c5f9a7c9',
+    'mtime' => '2019-09-28',
+    'sha256' => '2ff43c6e6ec66d12d10462a106536e14bd5d1e5f55158b15315bb23befc1ac83',
+    'size' => 1552
+  },
+  'Eval-Safe-0.01.tar.gz' => {
+    'cpan_path' => 'M/MA/MATHIAS/Eval-Safe',
+    'md5' => '1e2fba1e2def98e3cf39290f01a44fef',
+    'md5-ungz' => '98fd74995eb85c3a9ad412973761960c',
+    'mtime' => '2019-09-28',
+    'sha256' => '95edcf5189f94d53a6fc5609c1406ab34706f35b1b08e27e38a087ba6e98c078',
+    'sha256-ungz' => '12bf27eb223f492b0a12383756a5e36af413d3f7f21c50f35ee5f4f1eadb81c8',
+    'size' => 16217
+  },
+  'Eval-Safe-0.02.meta' => {
+    'cpan_path' => 'M/MA/MATHIAS/Eval-Safe',
+    'md5' => '7a7968fdd91e60a4c2e00dbe2b9aa3e0',
+    'mtime' => '2019-09-29',
+    'sha256' => 'ca7c580d9295d9bd02df4460f802d88beebbeb87d6783624753d2be2466b864b',
+    'size' => 1552
+  },
+  'Eval-Safe-0.02.tar.gz' => {
+    'cpan_path' => 'M/MA/MATHIAS/Eval-Safe',
+    'md5' => '02c1c3af85bf7a8bf44b597d122a3a7a',
+    'md5-ungz' => 'cc86feda2da19c4fea64afb045bd3bb7',
+    'mtime' => '2019-09-29',
+    'sha256' => '55a52c233e2dae86113f9f19b34f617edcfc8416f9bece671267bd1811b12111',
+    'sha256-ungz' => '7a7f9213ac50d96f044aa37559a34098329da1419842fc38568520ae90b82710',
+    'size' => 16202
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iQEcBAEBAgAGBQJhmshgAAoJELahc5BjdgzKLJQH/3DNop+vSKvvnBzV2OKDK9i4
+/4EWrPN8ImXhBl680jWslVONbGQx0IlPwHVSTvjgCFGSQ7NNt/8JmxwwJos1wLJb
+RaCOCK/fP52yqvoKTBdSU0bzYklqkupn3thpdVcDqnY/pVNEg1dbVN5FJql2siMM
+JnRGNOvk+sLvrbeVqI+ivtjXB1iaE1zESixoe18FckLRE9CsWz1KuTj11jR6mxxp
+w8JOCVH/p+uwpJn2x84SqBUekaB6L4p04mv6VHKDMmnLTvUhN/r+tzB6O6MAv6e0
+Ip+wKWqljdB+eBDLWxWGkAG6z+No89sksXpAdGYwP98sfnGUQJ3JxXDW1BU9CiI=
+=weRG
+-----END PGP SIGNATURE-----

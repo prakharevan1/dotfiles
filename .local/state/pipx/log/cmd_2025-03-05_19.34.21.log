@@ -1,0 +1,82 @@
+   123.5ms (setup:1108): 2025-03-05 19:34:21
+   123.6ms (setup:1109): /usr/sbin/pipx install pynvim
+   123.6ms (setup:1110): pipx version is 1.7.1
+   123.7ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   123.7ms (mkdir:76): creating directory /home/evandagur/.local/share/pipx/venvs
+   124.1ms (mkdir:76): creating directory /home/evandagur/.local/bin
+   124.3ms (mkdir:76): creating directory /home/evandagur/.local/share/man
+   124.4ms (mkdir:76): creating directory /home/evandagur/.cache/pipx
+   124.6ms (mkdir:76): creating directory /home/evandagur/.local/share/pipx/py
+   124.8ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   124.9ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   125.6ms (package_name_from_spec:378): Determined package name: pynvim
+   125.7ms (package_name_from_spec:379): Package name determined in 0.0s
+   125.8ms (create_venv:164): Creating virtual environment
+   126.2ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --without-pip /home/evandagur/.local/share/pipx/venvs/pynvim
+   176.6ms (run_subprocess:195): stdout:
+   176.6ms (run_subprocess:197): stderr:
+   176.7ms (run_subprocess:198): returncode: 0
+   177.6ms (run_subprocess:175): running /usr/bin/python3.13 -m venv --clear /home/evandagur/.local/share/pipx/shared
+  2689.8ms (run_subprocess:195): stdout:
+  2689.9ms (run_subprocess:197): stderr:
+  2689.9ms (run_subprocess:198): returncode: 0
+  2690.6ms (run_subprocess:175): running <checking pip's availability>
+  2707.1ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7ff10c598f30>, origin='/home/evandagur/.local/share/pipx/shared/lib/python3.13/site-packages/pip/__init__.py', submodule_search_locations=['/home/evandagur/.local/share/pipx/shared/lib/python3.13/site-packages/pip'])
+  2707.1ms (run_subprocess:198): returncode: 0
+  2707.3ms (upgrade:119): Upgrading shared libraries in /home/evandagur/.local/share/pipx/shared
+  2707.8ms (run_subprocess:175): running /home/evandagur/.local/share/pipx/shared/bin/python -m pip --no-input --disable-pip-version-check install --force-reinstall -q --upgrade pip >= 23.1
+  5226.9ms (run_subprocess:195): stdout:
+  5226.9ms (run_subprocess:197): stderr:
+  5227.0ms (run_subprocess:198): returncode: 0
+  5227.4ms (run_subprocess:175): running /home/evandagur/.local/share/pipx/venvs/pynvim/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  5244.7ms (run_subprocess:195): stdout: /home/evandagur/.local/share/pipx/venvs/pynvim/lib/python3.13/site-packages
+  5244.8ms (run_subprocess:198): returncode: 0
+  5245.0ms (run_subprocess:175): running /home/evandagur/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+  5262.6ms (run_subprocess:195): stdout: /home/evandagur/.local/share/pipx/shared/lib/python3.13/site-packages
+  5262.6ms (run_subprocess:198): returncode: 0
+  5263.0ms (run_subprocess:175): running /home/evandagur/.local/share/pipx/venvs/pynvim/bin/python --version
+  5265.0ms (run_subprocess:195): stdout: Python 3.13.2
+  5265.1ms (run_subprocess:197): stderr:
+  5265.1ms (run_subprocess:198): returncode: 0
+  5265.3ms (_parsed_package_to_package_or_url:139): cleaned package spec: pynvim
+  5265.3ms (install_package:247): Installing pynvim
+  5265.6ms (run_subprocess:175): running /home/evandagur/.local/share/pipx/venvs/pynvim/bin/python -m pip --no-input install pynvim
+  7127.2ms (run_subprocess:198): returncode: 0
+  7127.6ms (run_subprocess:175): running <fetch_info_in_venv commands>
+  7150.8ms (run_subprocess:195): stdout: {"sys_path": ["/usr/lib/python313.zip", "/usr/lib/python3.13", "/usr/lib/python3.13/lib-dynload", "/home/evandagur/.local/share/pipx/venvs/pynvim/lib/python3.13/site-packages", "/home/evandagur/.local/share/pipx/shared/lib/python3.13/site-packages"], "python_version": "3.13.2", "environment": {"implementation_name": "cpython", "implementation_version": "3.13.2", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "5.15.167.4-microsoft-standard-WSL2", "platform_system": "Linux", "platform_version": "#1 SMP Tue Nov 5 00:21:55 UTC 2024", "python_full_version": "3.13.2", "platform_python_implementation": "CPython", "python_version": "3.13", "sys_platform": "linux"}}
+  7150.9ms (run_subprocess:198): returncode: 0
+  7161.8ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 34ms
+  7162.1ms (_parsed_package_to_package_or_url:139): cleaned package spec: pynvim
+  7162.5ms (rmdir:56): removing directory /home/evandagur/.local/share/pipx/venvs/pynvim
+  7170.2ms (cli:1179): PipxError: No apps associated with package pynvim or its dependencies. If you are attempting to install a library, pipx should
+not be used. Consider using pip or a similar tool instead.
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/pipx/main.py", line 1176, in cli
+    return run_pipx_command(parsed_pipx_args, subparsers)
+  File "/usr/lib/python3.13/site-packages/pipx/main.py", line 282, in run_pipx_command
+    return commands.install(
+           ~~~~~~~~~~~~~~~~^
+        None,
+        ^^^^^
+    ...<13 lines>...
+        python_flag_passed=python_flag_passed,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/pipx/commands/install.py", line 108, in install
+    run_post_install_actions(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        venv,
+        ^^^^^
+    ...<5 lines>...
+        force=force,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/pipx/commands/common.py", line 418, in run_post_install_actions
+    raise PipxError(
+    ...<5 lines>...
+    )
+pipx.util.PipxError: No apps associated with package pynvim or its dependencies. If you are attempting to install a library, pipx should
+not be used. Consider using pip or a similar tool instead.
+  7171.6ms (cli:1187): pipx finished.

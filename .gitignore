@@ -1,0 +1,31 @@
+# Ignore system files
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore package manager cache
+.cache/
+.npm/
+.paru/
+.venv/
+
+# Ignore temporary files
+/tmp/
+*.log
+
+# Ignore SSH keys & credentials
+.ssh/
+.gitconfig.local
+
+# Ignore personal stuff
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Public/
+Templates/
+Videos/
+
+# Ignore only the lazy directory inside .local/share/nvim
+.local/share/nvim/lazy/

@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	email = dagurevan@gmail.com
+	name = Evan
+[core]
+	autocrlf = false
+	eol = lf
+	excludesfile = /home/evandagur/.gitignore

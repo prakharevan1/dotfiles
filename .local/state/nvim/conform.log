@@ -1,0 +1,208 @@
+2025-03-08 21:05:16[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: unexpected token `}` (35:2 to 35:3), unexpected token, this needs to be a statement
+
+2025-03-09 10:25:30[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `end` (30:3 to 30:6), expected a field
+ - unexpected token `end` (30:9 to 30:12), expected `}` after last field
+ - unexpected token `end` (30:9 to 30:12), unexpected token, this needs to be a statement
+
+2025-03-10 21:35:35[ERROR] Formatter 'rustfmt' error: error: expected expression, found `/`
+  --> <stdin>:14:15
+   |
+14 |     multiply =/ 3;
+   |               ^ expected expression
+
+
+2025-03-12 21:14:43[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `}` (6:3 to 6:4), expected a field
+ - unexpected token `}` (29:1 to 29:2), unexpected token, this needs to be a statement
+
+2025-03-12 21:16:08[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `config` (3:1 to 3:7), expected `}` after last field
+ - unexpected token `config` (3:1 to 3:7), expected `}` after last field
+ - unexpected token `,` (22:5 to 22:6), trailing commas are not allowed
+ - unexpected token `config` (3:1 to 3:7), unexpected statement after last statement
+ - unexpected token `}` (24:5 to 24:6), unexpected token, this needs to be a statement
+
+2025-03-12 21:18:43[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: unexpected token `,` (24:32 to 24:33), trailing commas are not allowed
+
+2025-03-13 17:41:10[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `=` (6:24 to 6:25), expected `}` after last field
+ - unexpected token `=` (6:24 to 6:25), expected `}` after last field
+ - unexpected token `=` (6:24 to 6:25), unexpected token, this needs to be a statement
+ - unexpected token `(` (6:34 to 6:35), expected function name
+ - unexpected token `(` (6:34 to 6:35), expected an expression after `(`
+ - unexpected token `)` (6:35 to 6:36), unexpected token, this needs to be a statement
+ - unexpected token `,` (83:6 to 83:7), trailing commas are not allowed
+ - unexpected token `config` (7:3 to 7:9), unexpected statement after last statement
+ - unexpected token `}` (84:2 to 84:3), unexpected token, this needs to be a statement
+
+2025-03-13 21:05:47[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: unexpected token `,` (6:3 to 6:4), trailing commas are not allowed
+
+2025-03-14 21:38:18[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `n` (21:2 to 21:3), expected `}` after last field
+ - unexpected token `(` (6:24 to 6:25), expected `)` to close function call
+ - unexpected token `}` (21:4 to 21:5), unexpected expression when looking for a statement
+ - unexpected token `}` (6:3 to 19:6), expected `end` to close function body block
+ - unexpected token `)` (21:5 to 21:6), unexpected token, this needs to be a statement
+
+2025-03-14 21:40:53[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (19:8 to 19:9), expected a field
+ - unexpected token `(` (6:24 to 6:25), expected `)` to close function call
+ - unexpected token `}` (35:1 to 38:6), expected `end` to close function body block
+ - unexpected token `)` (40:4 to 40:5), unexpected token, this needs to be a statement
+
+2025-03-15 14:15:32[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `)` (72:3 to 72:4), expected `}` after last field
+ - unexpected token `)` (72:3 to 72:4), unexpected token, this needs to be a statement
+
+2025-03-16 17:10:40[ERROR] Formatter 'rustfmt' error: error: expected one of `.`, `;`, `?`, `else`, or an operator, found `000`
+  --> <stdin>:25:45
+   |
+25 |     let sixteen_bit_signed: i16 = -30_      000;
+   |                                             ^^^ expected one of `.`, `;`, `?`, `else`, or an operator
+
+
+2025-03-21 20:58:54[ERROR] Formatter 'rustfmt' error: error: expected one of `:`, `;`, `=`, `@`, or `|`, found `"Sigma Gooner"`
+   --> <stdin>:197:18
+    |
+197 |     let password "Sigma Gooner";
+    |                  ^^^^^^^^^^^^^^ expected one of `:`, `;`, `=`, `@`, or `|`
+
+
+2025-03-22 10:07:10[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `}` (21:6 to 21:7), unexpected expression when looking for a statement
+ - unexpected token `,` (21:7 to 21:8), trailing commas are not allowed
+ - unexpected token `}` (22:1 to 22:2), unexpected token, this needs to be a statement
+
+2025-03-22 10:07:13[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: unexpected token `}` (20:21 to 20:22), expected `end` to close function body block
+
+2025-03-22 10:08:18[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `config` (37:3 to 37:9), expected `}` after last field
+ - unexpected token `config` (37:3 to 37:9), expected `}` after last field
+ - unexpected token `config` (37:3 to 37:9), unexpected statement after last statement
+ - unexpected token `}` (43:2 to 43:3), unexpected token, this needs to be a statement
+
+2025-03-22 10:08:45[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (42:3 to 42:4), trailing commas are not allowed
+ - unexpected token `}` (43:1 to 43:2), unexpected token, this needs to be a statement
+
+2025-03-22 10:09:00[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (42:3 to 42:4), trailing commas are not allowed
+ - unexpected token `}` (43:1 to 43:2), unexpected token, this needs to be a statement
+
+2025-03-22 10:09:02[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (42:3 to 42:4), trailing commas are not allowed
+ - unexpected token `}` (43:1 to 43:2), unexpected token, this needs to be a statement
+
+2025-03-22 10:09:03[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (42:3 to 42:4), trailing commas are not allowed
+ - unexpected token `}` (43:1 to 43:2), unexpected token, this needs to be a statement
+
+2025-03-22 10:09:27[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (43:3 to 43:4), trailing commas are not allowed
+ - unexpected token `}` (44:1 to 44:2), unexpected token, this needs to be a statement
+
+2025-03-22 10:09:29[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (43:3 to 43:4), trailing commas are not allowed
+ - unexpected token `}` (44:1 to 44:2), unexpected token, this needs to be a statement
+
+2025-03-23 19:24:07[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `config` (2:5 to 2:11), expected `}` after last field
+ - unexpected token `config` (2:5 to 2:11), unexpected statement after last statement
+ - unexpected token `}` (7:1 to 7:2), unexpected token, this needs to be a statement
+
+2025-03-23 19:43:27[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: unexpected token `,` (12:2 to 12:3), trailing commas are not allowed
+
+2025-03-23 19:46:47[ERROR] Formatter 'rustfmt' error: error: expected pattern, found `let`
+  --> <stdin>:27:5
+   |
+27 |     let sixteen_bit_signed: i16 = -30_000;
+   |     ^^^
+   |
+help: remove the unnecessary `let` keyword
+   |
+27 -     let sixteen_bit_signed: i16 = -30_000;
+27 +     sixteen_bit_signed: i16 = -30_000;
+   |
+
+
+2025-03-23 19:46:54[ERROR] Formatter 'rustfmt' error: error: expected `;`, found keyword `let`
+  --> <stdin>:24:14
+   |
+24 |     let x = 3
+   |              ^ help: add `;` here
+...
+27 |     let sixteen_bit_signed: i16 = -30_000;
+   |     --- unexpected token
+
+
+2025-03-24 21:32:59[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: unexpected token `(` (33:16 to 33:17), expected `)` to close function call
+
+2025-03-24 21:33:01[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (43:6 to 43:7), trailing commas are not allowed
+ - unexpected token `(` (33:16 to 33:17), expected `)` to close function call
+
+2025-03-24 22:04:38[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `,` (19:4 to 20:77), expected `end` to close function body block
+ - unexpected token `end` (1:1 to 1:4), expected a field
+ - unexpected token `end` (22:2 to 22:5), unexpected token, this needs to be a statement
+
+2025-03-25 07:02:30[ERROR] Formatter 'rustfmt' error: error: expected `;`, found keyword `let`
+   --> <stdin>:260:74
+    |
+260 |     println!("The length of the sigma boy array is {}", sigma_boys.len())
+    |                                                                          ^ help: add `;` here
+261 |     
+262 |     let currency_rates = [];
+    |     --- unexpected token
+
+
+2025-03-26 21:56:03[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unclosed string (11:3 to 12:1)
+ - unexpected token `(` (8:15 to 8:16), expected `)` to close function call
+ - unexpected token `=` (12:5 to 13:14), expected `end` to close function body block
+ - unexpected token `=` (13:15 to 13:16), expected `}` after last field
+ - unexpected token `=` (13:15 to 13:16), expected `}` after last field
+ - unexpected token `=` (13:15 to 13:16), unexpected token, this needs to be a statement
+ - unexpected token `direction` (14:5 to 14:14), unexpected statement after last statement
+ - unexpected token `}` (15:3 to 15:4), unexpected token, this needs to be a statement
+ - unexpected token `>` (15:8 to 15:9), unexpected expression when looking for a statement
+ - unexpected token `>` (15:8 to 15:9), unexpected token, this needs to be a statement
+ - unclosed string (15:9 to 16:1)
+ - unexpected token `","` (15:9 to 16:1), unexpected token, this needs to be a statement
+ - unexpected token `noremap` (16:5 to 16:12), unexpected statement after last statement
+ - unexpected token `=` (16:28 to 16:29), unexpected token, this needs to be a statement
+ - unexpected token `desc` (16:36 to 16:40), unexpected statement after last statement
+ - unexpected token `}` (16:78 to 16:79), unexpected token, this needs to be a statement
+ - unexpected token `vim` (19:4 to 19:7), unexpected statement after last statement
+ - unexpected token `end` (79:3 to 79:6), unexpected token, this needs to be a statement
+
+2025-03-27 07:04:53[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `vim` (15:1 to 15:4), unexpected expression when looking for a statement
+ - unexpected token `vim` (8:4 to 12:7), expected `end` to close function body block
+ - unexpected token `vim` (15:1 to 15:4), expected `}` after last field
+ - unexpected token `vim` (15:1 to 15:4), expected `}` after last field
+ - unexpected token `vim` (15:1 to 15:4), unexpected statement after last statement
+ - unexpected token `end` (78:3 to 78:6), unexpected token, this needs to be a statement
+
+2025-03-27 08:27:07[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `(` (8:27 to 8:28), expected `)` to close function call
+ - unexpected token `,` (8:74 to 8:95), expected `end` to close function body block
+ - unexpected token `)` (8:162 to 8:163), expected `}` after last field
+ - unexpected token `)` (8:162 to 8:163), expected `}` after last field
+ - unexpected token `)` (8:162 to 8:163), unexpected token, this needs to be a statement
+
+2025-03-27 16:14:14[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `(` (8:27 to 8:28), expected `)` to close function call
+ - unexpected token `,` (8:74 to 8:95), expected `end` to close function body block
+ - unexpected token `)` (8:162 to 8:163), expected `}` after last field
+ - unexpected token `)` (8:162 to 8:163), expected `}` after last field
+ - unexpected token `)` (8:162 to 8:163), unexpected token, this needs to be a statement
+
+2025-03-27 16:14:34[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: 
+ - unexpected token `(` (8:27 to 8:28), expected `)` to close function call
+ - unexpected token `,` (8:74 to 8:95), expected `end` to close function body block
+ - unexpected token `)` (8:162 to 8:163), expected `}` after last field
+ - unexpected token `)` (8:162 to 8:163), expected `}` after last field
+ - unexpected token `)` (8:162 to 8:163), unexpected token, this needs to be a statement
+

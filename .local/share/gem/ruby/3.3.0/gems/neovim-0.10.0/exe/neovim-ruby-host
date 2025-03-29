@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "neovim/host/cli"
+
+Neovim::Host::CLI.run(__FILE__, ARGV, STDIN, STDOUT, STDERR)

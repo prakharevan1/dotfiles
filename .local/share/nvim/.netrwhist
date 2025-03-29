@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/evandagur/.config/nvim/lua'
+let g:netrw_dirhist_2='/home/evandagur/.config/nvim/lua/plugins/features'
+let g:netrw_dirhist_1='/home/evandagur/.config/nvim'
+let g:netrw_dirhist_0='/home/evandagur/.config/nvim/lua/plugins/appearance'
+let g:netrw_dirhist_9='/home/evandagur/.config/nvim/lua/plugins'
+let g:netrw_dirhist_8='/home/evandagur/.config/nvim'
+let g:netrw_dirhist_7='/home/evandagur/.config/nvim/lua/plugins'
+let g:netrw_dirhist_6='/home/evandagur/Documents/programming/about_me'
+let g:netrw_dirhist_5='/home/evandagur/.config/nvim'
+let g:netrw_dirhist_4='/home/evandagur/.config/nvim/lua/plugins'

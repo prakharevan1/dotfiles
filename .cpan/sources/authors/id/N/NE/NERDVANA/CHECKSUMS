@@ -1,0 +1,1194 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# CHECKSUMS file written on Tue Mar  4 02:52:29 2025 GMT by CPAN::Checksums (v2.14)
+$cksum = {
+  'Alien-FluentBit-0.01.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '048b8c25fc016e57f89e9e88c8dd72bb',
+    'mtime' => '2023-04-21',
+    'sha256' => 'f62cfc99b7f933803e6924adbdd3a2644403609453adf2fce6a29f398758d011',
+    'size' => 2047
+  },
+  'Alien-FluentBit-0.01.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '9a129ee78253aa75191f8e1ad1ba4488',
+    'md5-ungz' => '3f2eab5e59c2632405dfdbd5eb55b9e0',
+    'mtime' => '2023-04-21',
+    'sha256' => '3d6423bd0e8f7ee1c3b97d9064565b30cb0b8937ea12be59dc7fc02ed5f50264',
+    'sha256-ungz' => 'd870b1c53ffe67e31e26f8086c64401a22c88fd66e8fc2a0cb6b18b0fef88a74',
+    'size' => 12186
+  },
+  'App-SlideServer-0.001.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '55cc2036245ef4529e8a5c0aec43d606',
+    'mtime' => '2023-07-11',
+    'sha256' => 'fc7715d9bf823879dd8067da55803b1fd98e99650d16e566258a0c2788947cd4',
+    'size' => 2433
+  },
+  'App-SlideServer-0.001.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '27f62fdc37c176ee0754fb9ad1608eda',
+    'md5-ungz' => 'e72e673f7129e530084a3cca25868eaa',
+    'mtime' => '2023-07-11',
+    'sha256' => '40571336c69229b6aa491cc4461f43cc57aa53cf25d98e5a1459ed233172fb0d',
+    'sha256-ungz' => '75ff7a19552a45b678697f71a7f905dab414b16b484409aadee72f8b10a13bd1',
+    'size' => 107833
+  },
+  'App-SlideServer-0.002.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'b071b5e89d1ad9c5c45248e6199b7281',
+    'mtime' => '2023-07-11',
+    'sha256' => '7079d80b2c1535d509ee6b5edf9f4554cb9a8e347320d56d8880e61704da31e3',
+    'size' => 2433
+  },
+  'App-SlideServer-0.002.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'f6d9d7875792c6a1277b435efdec84b9',
+    'md5-ungz' => 'd8e134a6b03eaa2cbb1fa4f0202861da',
+    'mtime' => '2023-07-11',
+    'sha256' => '4114b0e362cbc7a9d5285e317e31b0f818d815de6dc361d295e4f40aff399876',
+    'sha256-ungz' => 'e8f55854637d69cb23671357a086105336551dca57c0145d2d260a6cae74d4a1',
+    'size' => 108511
+  },
+  'CPU-x86_64-InstructionWriter-0.001.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '3e7a6fc2efbf09825f56dd4ac57b3e5f',
+    'mtime' => '2023-04-17',
+    'sha256' => '1c95c00e7929c8e6872e67846ba786717eb315debd0a4f3946627feb7b5d79e4',
+    'size' => 1068
+  },
+  'CPU-x86_64-InstructionWriter-0.001.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'bd771b408d8625ae3e75a3b7ed048689',
+    'md5-ungz' => 'cbd306b49b64ae39d482554456050ad0',
+    'mtime' => '2023-04-17',
+    'sha256' => '33f5829e9f12b51fd28f953a01347588aca1cd14604ced70cef3ba84b76e0c02',
+    'sha256-ungz' => '89f238d440abea932d8bb1bff0116ecd9b2e65cb249f3434587e444a67d73386',
+    'size' => 219065
+  },
+  'CPU-x86_64-InstructionWriter-0.002.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '6489ca658888ffafcff9dea82973b875',
+    'mtime' => '2023-04-19',
+    'sha256' => '06f7a5b6e975a42e813f8a23ee304d8d3e0846f6c97e3e044e35c7bd4fc3ac4f',
+    'size' => 1098
+  },
+  'CPU-x86_64-InstructionWriter-0.002.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'a3a24ab30b54ff0f8710ac9f3c71af81',
+    'md5-ungz' => '89fcb4abf3de910d27c2a2f73e86d588',
+    'mtime' => '2023-04-19',
+    'sha256' => 'c15e265cac75a5fc0c2122d4fdc622a955fb65d104d8ac498964d7ded1ab2e49',
+    'sha256-ungz' => '1f6936d02d3b9d138d42738428a299ec6bf3348a2f57acfd7215e70f3c34b7be',
+    'size' => 220426
+  },
+  'CPU-x86_64-InstructionWriter-0.003.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '3e3c7ddb1d74a329eaa2c79432b13252',
+    'mtime' => '2025-01-26',
+    'sha256' => 'a7fd140a25ec800d55e568678c49d4c14faecbdb7977d849e60af14d00247260',
+    'size' => 1098
+  },
+  'CPU-x86_64-InstructionWriter-0.003.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '1613cda85d20a31b1213f4ea1312bc34',
+    'md5-ungz' => 'bef406455313670df500fc95e6b1b9a2',
+    'mtime' => '2025-01-26',
+    'sha256' => '269fbef08c7299e501469ebdba09a2ad6ec385fa241faff98139b245a5a0558c',
+    'sha256-ungz' => '9e11c448013b5bded730e30399e209ec4f085e48d20c6cbfae1c50b4e31c5844',
+    'size' => 205390
+  },
+  'CPU-x86_64-InstructionWriter-0.004.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '3341e843b582894a8f18763fb85c7a2f',
+    'mtime' => '2025-02-06',
+    'sha256' => 'c0f8f0d50948e8ccd15f4f61879227c314e7d47e535dd18aaecb2b97babe5e01',
+    'size' => 1101
+  },
+  'CPU-x86_64-InstructionWriter-0.004.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c953abda3738d9c44bcbd77889b38852',
+    'md5-ungz' => 'df74616f56803b7c1b570a67a8e9d13f',
+    'mtime' => '2025-02-06',
+    'sha256' => 'a749c9a84f3685e83835466d67030118994b60ca1c2e164f589e9b43cac39118',
+    'sha256-ungz' => 'cfad67b1199c90c8fc35329678e822c8a4f19872105f1798631a36ba8229dc9f',
+    'size' => 207633
+  },
+  'CPU-x86_64-InstructionWriter-0.005.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '085346471a770dc052f7a563ff1ca93e',
+    'mtime' => '2025-03-04',
+    'sha256' => '2313c84b88ae8091c2ad481b7200685ee67f290ea2decb65a5da80fc2cccde06',
+    'size' => 1191
+  },
+  'CPU-x86_64-InstructionWriter-0.005.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '2b6fb06dc6a5a5cc3582a75c678963b5',
+    'md5-ungz' => 'f82a2df6a582a82d8869d6cd0053785d',
+    'mtime' => '2025-03-04',
+    'sha256' => '79a5cac09be83ef4762027d52973fecf87c9b9c4af778ac11a7b56f5c17abf2e',
+    'sha256-ungz' => '338ca97454f3637ba96dc265d150ab4397d69363fd9e98630c634ec71716646d',
+    'size' => 220318
+  },
+  'CodeGen-Cpppp-0.003.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '22918fcfffdc1b503ce32c66e17099a3',
+    'mtime' => '2023-11-09',
+    'sha256' => '7168fcdddc8dccc7dfa33beb82cd65203ed6bfbcd4421db190c7936cd294a67a',
+    'size' => 2206
+  },
+  'CodeGen-Cpppp-0.003.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '0b7108dc9a15cdb9b6f9ea3ad7b4711e',
+    'md5-ungz' => '39975062f1e619c9b776e5b5e15450c8',
+    'mtime' => '2023-11-09',
+    'sha256' => '2b3bfcd8be9ad8a5035a80701e3ac8fca608769bfdf5a1b5d272a02a6df463f1',
+    'sha256-ungz' => 'ddabae833e61139b6e6253107a1b9fde85d68c6be2186474d622cd2320457772',
+    'size' => 36755
+  },
+  'CodeGen-Cpppp-0.004.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'f66868dc04fa3978e9245dce2d4b8525',
+    'mtime' => '2024-07-07',
+    'sha256' => '49dd0bd27a97c8d92813cdc4e8bd338520218bd1a234d3f862f67749ade4723e',
+    'size' => 2206
+  },
+  'CodeGen-Cpppp-0.004.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '372e3672a62a6bc5f55c90b257eafa80',
+    'md5-ungz' => 'e6116b68fa074ace205bf99404f19f85',
+    'mtime' => '2024-07-07',
+    'sha256' => 'f82507c57111e48f838d49806a7f2925064bbfe7deeb23ee707b32ddb70de416',
+    'sha256-ungz' => '948f2425cb15b2eef791c078d4da6d898ee8529d4e5419c87514e51876c84518',
+    'size' => 47901
+  },
+  'CodeGen-Cpppp-0.005.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '13ecc8ac41f43577728a323e23012dac',
+    'mtime' => '2024-07-09',
+    'sha256' => '6d8e9c8b3c76e2de3b739162c9427d5d356dc0012399e0831d7417a8af174b77',
+    'size' => 2206
+  },
+  'CodeGen-Cpppp-0.005.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'f6690e452e9bf620575fc4b609d22887',
+    'md5-ungz' => 'b53d23b5f204ce701e33a64215806f82',
+    'mtime' => '2024-07-09',
+    'sha256' => '4adecf22f306174ed351c9172edd58f9cb26606814d5b45cab6a4cd588f7a8e6',
+    'sha256-ungz' => '35462bcbf2362bbd2c64b3f411a8b1d8bfff64cd37fae150ee819f852fc59c63',
+    'size' => 48991
+  },
+  'DBIx-Class-ResultDDL-1.01.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'ca4e34cc025cc627aaf180e0f7874a29',
+    'mtime' => '2021-02-18',
+    'sha256' => 'c6a91cb6be8089179b3d65427e0a87bbbe07a482062bf7e7606f0952702fe52f',
+    'size' => 1859
+  },
+  'DBIx-Class-ResultDDL-1.01.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '8675ceb3fc9f2e12368ad1e7d415dda1',
+    'md5-ungz' => '7f1008dcc7b765f343ea5fe1b22d8067',
+    'mtime' => '2021-02-18',
+    'sha256' => 'dbc70576f3f76fb2b83c9ea315af8b97890bde9acd242dd8fb847cace0cb3165',
+    'sha256-ungz' => 'ea068f767bb2052dce172ddc38c6c030578c554ec48f4d0659a8905c11d206c7',
+    'size' => 25589
+  },
+  'DBIx-Class-ResultDDL-2.04.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '55c526b3da4d126a3615fcaeb5cb00b2',
+    'mtime' => '2023-09-27',
+    'sha256' => 'e408e1e8a48f0c8bce707cad2bffb27a539dabbecc9fe6cb3dde3d52b7369eb2',
+    'size' => 2092
+  },
+  'DBIx-Class-ResultDDL-2.04.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd8979cb2e52567d6faa2f16463921e58',
+    'md5-ungz' => '7ea1369ff2751905b04fb9a302718630',
+    'mtime' => '2023-09-27',
+    'sha256' => '489a8311a8ce07a1f71d75399adc4e738ac7b2efc31652b4786c607522d2ecd0',
+    'sha256-ungz' => '007443af1dd5aaca6c5dd31ab12de96f21b8cd0c805a83d4b92240bda18a9a23',
+    'size' => 37974
+  },
+  'Data-TableReader-0.011.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '2d2830000826df98297838c037b42c2c',
+    'mtime' => '2019-06-27',
+    'sha256' => 'ff3e2c5f0147b3e70e0ade84101d614e4b5924cdd4c36e3135d73d53af044df4',
+    'size' => 2468
+  },
+  'Data-TableReader-0.011.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '1bfd7e6d9106be391d5189da7f340001',
+    'md5-ungz' => '9fa68b86d4c5be01fb1323c8e74e45c7',
+    'mtime' => '2019-06-27',
+    'sha256' => 'b87195e208beb4ce6623b68a8568854b114ee2565e2c5d2ab3967af96e3bffcb',
+    'sha256-ungz' => 'd7451175388beb01775e69a8e95936aea47259ef4329df39851f8a20b4d8e416',
+    'size' => 46980
+  },
+  'Data-TableReader-0.012.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '0b8173e12377c819455e32bbbb830075',
+    'mtime' => '2024-03-08',
+    'sha256' => 'fd2c3c0fe216078ad912afd86c381ef4c6205a063ce9a3cdb77e9bf10a555b14',
+    'size' => 2569
+  },
+  'Data-TableReader-0.012.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '085729610f6f0485cf00b036118aadea',
+    'md5-ungz' => 'c1d490d7edd1e52ab26259d06e0d1c3f',
+    'mtime' => '2024-03-08',
+    'sha256' => '31b806cea388166d88f8cd9205cb43bc7bf88630da4f4e1827d4220848d2f909',
+    'sha256-ungz' => '859d0dcca72091789d8dbc2aed74132c84250ccb65932044bbd7420453ef4ee2',
+    'size' => 51093
+  },
+  'Data-TableReader-0.013.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c48bf95ad08d3698dcb89a99742b5f9b',
+    'mtime' => '2024-03-22',
+    'sha256' => '4629919f1d556bef3477ecd247abdc79cf2351bb8bf783eff732bdf4989297c5',
+    'size' => 2569
+  },
+  'Data-TableReader-0.013.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '6564fc9da0e9bca9503def9fbc67ac9f',
+    'md5-ungz' => '660ee024217e710d4e4095efcf2b4177',
+    'mtime' => '2024-03-22',
+    'sha256' => '87c505ea92cf28ac034c03b8bd0753be156b6cc2315e4fcfcefb0bb5bdf8ad58',
+    'sha256-ungz' => '553fd224ecc94fd8713c35c53e794ce612c287975fc2c3ea7463e11b34956a1d',
+    'size' => 51128
+  },
+  'Data-TableReader-0.014.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '0780259f0df612dbc4e7f2a77b80094c',
+    'mtime' => '2024-03-25',
+    'sha256' => '07b69aa77355cc229bb8c387397375833ebaa7882375ebf7725160caa3f40ef9',
+    'size' => 2569
+  },
+  'Data-TableReader-0.014.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '107506dadf340a1a2368ed72e6a288b7',
+    'md5-ungz' => '194ecfbbe339703b7ce97d1390e5c477',
+    'mtime' => '2024-03-25',
+    'sha256' => 'a28f0e697628bb290912d8f751ea6f21bba31819bd7b846cbd03504a3fe16b7b',
+    'sha256-ungz' => '5ff748d1e8e9a04bba05e046541a7f5f9c6b83f11553f14e8fb1990d46b8b58a',
+    'size' => 51190
+  },
+  'Data-TableReader-0.015.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '81d330ecaa7fd7da072e08d1b0a74f86',
+    'mtime' => '2024-04-27',
+    'sha256' => '646945f55b0cd1ad756e54acbe156a860d34512b72373279687a42eb6e3fc530',
+    'size' => 2570
+  },
+  'Data-TableReader-0.015.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '32fe62cc9fd91d7c94c1979868644437',
+    'md5-ungz' => '02333d280d18f88c13c9aef4fd2bd7a0',
+    'mtime' => '2024-04-27',
+    'sha256' => '9495193b9ee7978ff753c9f853bad6688d8e051faf5a14422f3785a0ba719b10',
+    'sha256-ungz' => 'b95cdb30c4cdde932000a98abf04dcde0d9188d4bb59d350ec3be2ab4662c01a',
+    'size' => 56334
+  },
+  'Data-TableReader-0.020.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'ed69f390170760302c0fad2c935bf53d',
+    'mtime' => '2024-04-30',
+    'sha256' => '4c1223a7a1a14be34a9adb1c4ce008c32e4cc4067aebf3161b11fe67fea78867',
+    'size' => 2570
+  },
+  'Data-TableReader-0.020.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '8b1eff149d870acf0ac596cffaba03bc',
+    'md5-ungz' => '7e15114fca4c05dd516d6a3e701d3556',
+    'mtime' => '2024-04-30',
+    'sha256' => 'd608b42f85ecbccfc8d88279a66c37c8dd44985b5b8e091be54efbf29d7878f2',
+    'sha256-ungz' => 'a9dd90b5c45a3e84e94b54fae4ab08ff30abf30834b0f188bfee191d652ac179',
+    'size' => 58695
+  },
+  'Data-TableReader-0.021.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'ca200b061885d11186b15f59934c89ce',
+    'mtime' => '2024-05-02',
+    'sha256' => '943f9e1025f2106c7d9ced5fe9f28ee7c46f465aafc44fbeea95e778e572fb90',
+    'size' => 2570
+  },
+  'Data-TableReader-0.021.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c1e607ae85aa29298a57328e3fa7d5e9',
+    'md5-ungz' => '276cf6c27587f89bd5877f4b0b18c1b2',
+    'mtime' => '2024-05-02',
+    'sha256' => 'f92ec6b07e9ab145863fbcd6e6b6452817f25bfd68bc3713e528d439490170cf',
+    'sha256-ungz' => '280bb45f7a1f193ab56b6abca93a122b7e5fac78b3a62d1418a9c4f35a137613',
+    'size' => 59229
+  },
+  'Data-TableReader-Decoder-HTML-0.012.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '7cd74f805b7d2a02db07a36787c5ca48',
+    'mtime' => '2021-08-23',
+    'sha256' => '3fffb14bc543db1a6cec9a5f47e0e633fd3912b614809ffc49a956ae88ad7aba',
+    'size' => 2300
+  },
+  'Data-TableReader-Decoder-HTML-0.012.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '34c8a98e1c9326d0ef8e726d33f62017',
+    'md5-ungz' => '2139407006103f06e7ddcd0be2a9a2a2',
+    'mtime' => '2021-08-23',
+    'sha256' => '379f4bb154fd7764a1acf1c994bf506508732c819806b921bf796dc05ca8dbad',
+    'sha256-ungz' => '6bce8a94d28411b69fea6e797d801988f4b22848943aaac4da4d957f954069c1',
+    'size' => 12727
+  },
+  'Data-TableReader-Decoder-HTML-0.015.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'b231b220135c2966bb1fd9ae3e02968c',
+    'mtime' => '2024-04-27',
+    'sha256' => 'ac8c8c66b567220681f61d8a8f6536bc5efebd0907b6667f0de0dec7b6cea5de',
+    'size' => 2380
+  },
+  'Data-TableReader-Decoder-HTML-0.015.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '2c667bb123c9dbdbf500fd5dd68148e0',
+    'md5-ungz' => '7862e89f864e52a17767c1b61413735d',
+    'mtime' => '2024-04-27',
+    'sha256' => '8c00bf8a006da8522e90554aab35aa2d889209eb44fbe66b02c8991e97cdd63d',
+    'sha256-ungz' => 'b323660d079aabb015d40a5ec30c30ba14259574e84fa76b79fe7e98eb5a3d18',
+    'size' => 12807
+  },
+  'Data-TableReader-Decoder-HTML-0.016.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'cb78bb1408c939643d3101a7506022b8',
+    'mtime' => '2024-04-29',
+    'sha256' => '4dc128c92315bee6d0f6f8e37dd4be776bd23272c818f67b300ca0ea2894463e',
+    'size' => 2382
+  },
+  'Data-TableReader-Decoder-HTML-0.016.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '38bc57210b9da7bde3a01c43cd56fe75',
+    'md5-ungz' => '4480c5745d477912557c32cfe02761c8',
+    'mtime' => '2024-04-29',
+    'sha256' => '3d1b1d309383fed5bc08b01557202ea6c9f33c6822c3f9929695ed394dcdb89d',
+    'sha256-ungz' => 'fa5136ee7822d415e3cf375ff062d7da4cd6b73d90ad47b972a33a713b0671a3',
+    'size' => 12882
+  },
+  'Data-TableReader-Decoder-HTML-0.020.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'ff961b71660d17808940787cb806ded7',
+    'mtime' => '2024-04-30',
+    'sha256' => '41c9a19b938c30e37700a56a35fa090847170fdbf66b927ff770e3ecc9217c1e',
+    'size' => 2382
+  },
+  'Data-TableReader-Decoder-HTML-0.020.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '6a6379fea627cabf502943d325ccbca4',
+    'md5-ungz' => 'ae96688dc1cbfed403a42cc94f796d17',
+    'mtime' => '2024-04-30',
+    'sha256' => '585cfa96de67c12309598e0e5d7345019affa26bc6c4b2310790cf976ed4c45a',
+    'sha256-ungz' => '3d32e273ec06079c9580c7d3aae4e560c1f0575db34b968b117142cd5c46f58d',
+    'size' => 12986
+  },
+  'DataStore-CAS-0.07.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'b9849fa8f4bf361f8e893d9b3310cafb',
+    'mtime' => '2022-12-23',
+    'sha256' => '11cd4a181c517c48f6bdde13e1d56690d5be62a7e3ead4bf2ebfc7f183ba6eeb',
+    'size' => 931
+  },
+  'DataStore-CAS-0.07.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'fa58a2dc7b1407cf1d51ba371b2dfa9f',
+    'md5-ungz' => '0076a6c0b228fb40d886fb930d6df441',
+    'mtime' => '2022-12-23',
+    'sha256' => '3d88212e5b3c8863504b39933259596a182d13a2d7ee3b4a6118cb259b0d8e6b',
+    'sha256-ungz' => 'bcb806f8dff5bc9b294f57932c420bc5225efb030ab9297af4ea49034d95ee29',
+    'size' => 34334
+  },
+  'DataStore-CAS-0.08.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '1f3c2b519b55a1582a63913630f8ca09',
+    'mtime' => '2023-12-01',
+    'sha256' => 'cb27184fd04c8d5898040534733ab2473f5bc78ab692aa858b1587111eadd967',
+    'size' => 927
+  },
+  'DataStore-CAS-0.08.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '6caa281ddf67edafba285307b850fc14',
+    'md5-ungz' => 'fbf31f0619e1af618f86ded455d71f5f',
+    'mtime' => '2023-12-01',
+    'sha256' => '9eef1e6b9a0d891a17f6bbf33beba0c5a02f41737f315f2721b88eb7401c4546',
+    'sha256-ungz' => '1681e6c5c5e289dcfb3a4d2d60ee63857b40b9642ccb13541e5144f1c4545342',
+    'size' => 35264
+  },
+  'DataStore-CAS-FS-0.011000.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '514b3fe0243dad5010ea7c1f1dcabd36',
+    'mtime' => '2013-05-14',
+    'sha256' => 'cde865ba09c6b97b401a37497258a06b370d87d7c21ea67e56e24c80226a8266',
+    'size' => 748
+  },
+  'DataStore-CAS-FS-0.011000.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '94d05be287f2936a35e0a6d7096cbf60',
+    'md5-ungz' => 'b98d8323a2ec0ddefac56763a405bb46',
+    'mtime' => '2013-05-14',
+    'sha256' => '27ce97b150119ea5fc0a7e58323bf2f06f789d2d3208593eafeebf3968a2dfbf',
+    'sha256-ungz' => '01dd9725fe51d0175e41f7ee9446d0d4485c9d55f4300925560260ddcdb99545',
+    'size' => 55153
+  },
+  'Date-RetentionPolicy-0.01.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '236bdc3d50056151e1387e2071487cda',
+    'mtime' => '2018-11-26',
+    'sha256' => 'ba0c81d8db4deed3a3c8d053c3d1bfbd25515b471329736e1ae44e818ba8a76a',
+    'size' => 1794
+  },
+  'Date-RetentionPolicy-0.01.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '489d8d17574c4c9e0170358bc7fd2a61',
+    'md5-ungz' => '06cec0002c09ea58463c41afd8cff125',
+    'mtime' => '2018-11-26',
+    'sha256' => '26fb44aefde1d30188a32405f363d18159a104c135f300759368612875769542',
+    'sha256-ungz' => '610fe74e6bcd75315eabc04c49ec1e9c754addcc42393b142f0b9a708de3dc57',
+    'size' => 14506
+  },
+  'ELF-Writer-0.011.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'edecab11c3a7a99edc35837c8b934ce7',
+    'mtime' => '2017-03-09',
+    'sha256' => 'b83b719c898a3134811096b6b868b8feecd467c21008610f00f311c8eeae8bd1',
+    'size' => 779
+  },
+  'ELF-Writer-0.011.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '2b6f3c902f3c70ab821baccbc5ed4f77',
+    'md5-ungz' => 'fc25e6ec35658df5922f42c7fbadbe3b',
+    'mtime' => '2017-03-09',
+    'sha256' => '91c4554c7dd14e7b918a11bf3c4630781e6dfed0b25babe127d0fe4675a149fd',
+    'sha256-ungz' => '5d418710fdcf5f60cadc1dd62f8314e14ec3d168f831798ceddfc176d1579ac3',
+    'size' => 20397
+  },
+  'Exporter-Extensible-0.10.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c17b21b0ec56f7e9ea8861a8d00f8e93',
+    'mtime' => '2021-01-26',
+    'sha256' => 'c1d8608d74a52b02c4b9b883895f5023ba1e6e824836e6249775db846e84d6b3',
+    'size' => 1746
+  },
+  'Exporter-Extensible-0.10.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '38023087ba64d0e071f4558b046eb514',
+    'md5-ungz' => '65c942e7e04b45d329d559b20ed7c288',
+    'mtime' => '2021-01-26',
+    'sha256' => '414dafb09cfd9fa976f1beb134cd42b53a5b5ebc1c43997db38a235530717524',
+    'sha256-ungz' => '7568c8ac4d747536ea81d32f15a7e96579e4aaf9ac5091375e740ed08a2efd43',
+    'size' => 34543
+  },
+  'Exporter-Extensible-0.11.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '8e05bd2e18f4ab161d2678d0fbe2ce5e',
+    'mtime' => '2023-05-21',
+    'sha256' => 'abfa83bb2d4267557ffcb6f85df5445fc2f7d00b929a7346c14f5b22f325e7ed',
+    'size' => 1957
+  },
+  'Exporter-Extensible-0.11.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'a6b16a6206c801dc0f6cd2f50a7aec4d',
+    'md5-ungz' => 'af196712b113f6618c626b7b1c0a5d5b',
+    'mtime' => '2023-05-21',
+    'sha256' => '3851b74b48fc603fb2bbc7f40cebf4db7225c1c0814aeb1941182099701891cd',
+    'sha256-ungz' => '1966d304414868692dc0bf446603e604a50d528715e84733c9a64ae87b015794',
+    'size' => 35088
+  },
+  'Fluent-LibFluentBit-0.03.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd7fa6366431a7ed733169c2154f6bca5',
+    'mtime' => '2023-07-03',
+    'sha256' => 'c65d2985bdb47d2454376f169177b5f667f44ba738d61a5354639c7012662fd8',
+    'size' => 1746
+  },
+  'Fluent-LibFluentBit-0.03.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'fff6a5480a23a2534878475718c2a348',
+    'md5-ungz' => '73fb692709e025bd87e6f492af500add',
+    'mtime' => '2023-07-03',
+    'sha256' => '12df99228581c65e9da3de4f8562af1e5cd1dd1ea30676954727de51e39bde15',
+    'sha256-ungz' => 'afc256fef8366ea0c96523ff8acec6252086c7da4e704776220ad0add5edbdb2',
+    'size' => 18955
+  },
+  'Geo-SpatialDB-0.000_001.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '70710b77de35484fb0b7ef72507f2783',
+    'md5-ungz' => '617da3f4fc4b7b1159987ac5a4e96079',
+    'mtime' => '2016-06-20',
+    'sha256' => '544b55f78bbf49ac322e367d1209bdd92e5da6673a3bd0919723ca824d1b2396',
+    'sha256-ungz' => 'dc33e5943162b721b13a2fef8469cd50dff665b8f47738de9cdb5bcaa46665a8',
+    'size' => 108900
+  },
+  'IO-SocketAlarm-0.003.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '6baa5f7788c2400099ebfd747128f3df',
+    'mtime' => '2024-10-15',
+    'sha256' => 'c065773c7ca93a6dbae43f88439fd97ea23d41330cf99f8464723f05046a18e9',
+    'size' => 1908
+  },
+  'IO-SocketAlarm-0.003.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd541c25a4ef12b2f6e2e8730b4704e4d',
+    'md5-ungz' => '483b64d94ba55845a2c748fb47ecb271',
+    'mtime' => '2024-10-15',
+    'sha256' => 'e3bf3b6c08217d1a8ca0d3728a2c1489689c81be61b2d66d45f00dea15c2f38f',
+    'sha256-ungz' => '73533b3e2a492845f411a52eb405e93dd19f6fa987a00513c8bfec8c1344a859',
+    'size' => 175035
+  },
+  'Language-FormulaEngine-0.06.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'a968a218dc1ff6edf5f94b813c73eb09',
+    'mtime' => '2021-01-26',
+    'sha256' => '513afb690896ee07115085f7c3d879dd63134caefd2182f356ba3db224f6add3',
+    'size' => 2182
+  },
+  'Language-FormulaEngine-0.06.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '55842b5dc1be65ae46d441c1b01a9c57',
+    'md5-ungz' => '828a7c26e0aab39e29b166525e0adc67',
+    'mtime' => '2021-01-26',
+    'sha256' => 'b0929542c6ed4f9cb88ad66bf66182cb888adbee80395d869ff52abad67044fc',
+    'sha256-ungz' => 'ebad36bed75c0996783b66b4ba0fcf931caadd831ac5bf17d3528b42e0157cc3',
+    'size' => 40688
+  },
+  'Language-FormulaEngine-0.07.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'b64dc7ca1184c13cf04916ca839f4f4f',
+    'mtime' => '2023-04-17',
+    'sha256' => '616ea19511db506bc05398851e24b8bf2625fd368a07228ab923d46f59d2c219',
+    'size' => 2248
+  },
+  'Language-FormulaEngine-0.07.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '5361a472a6cec3eae58599d18a8810b8',
+    'md5-ungz' => 'b8a9f249e091428168261fa8bc423f2f',
+    'mtime' => '2023-04-17',
+    'sha256' => 'a21b04235da40b23e97ff7a829b7db5536e63a5b47af12b5cbfb72d8a1bc2711',
+    'sha256-ungz' => '2da440786e8e907eb51fee9138da312754528a5ce1f405fb8ce31093df86795d',
+    'size' => 44697
+  },
+  'Language-FormulaEngine-0.08.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd3df022d0c14c46b659c3f6f057d835b',
+    'mtime' => '2023-04-25',
+    'sha256' => '6439be3e048cd8b665888d7ace8c506de6da758bdead2ecf6c506b2d89d27b2d',
+    'size' => 2248
+  },
+  'Language-FormulaEngine-0.08.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '308c4e707bcee6151df2b7ac7ddf0d4c',
+    'md5-ungz' => '79901c101b425cb1c0757160b0fee55b',
+    'mtime' => '2023-04-25',
+    'sha256' => '8d232198d43b8d32e721ba6158b6bda0077d989ed79e9bf2eb74d1ab324dcb13',
+    'sha256-ungz' => '264df7b83935f05c86cc1e47be44a2db631383c074f26366af149fc04e2af8dd',
+    'size' => 44707
+  },
+  'Log-Any-Adapter-Daemontools-0.102.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '9b3761c98bca24c76b390147cc45846a',
+    'mtime' => '2019-02-09',
+    'sha256' => '767e8ee277915d71edc9b844d42fa916544e03e30cf9da0492c72aa1b6f6e11f',
+    'size' => 1814
+  },
+  'Log-Any-Adapter-Daemontools-0.102.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'ce271ffd974964b8c5b0c9d135f980f4',
+    'md5-ungz' => '28b02e69a2b19cd8b0eec0f69325a866',
+    'mtime' => '2019-02-09',
+    'sha256' => 'a512f5f54e9e25102b83137572d8ac3cb71d1d4a0e5703df63cf0a6f94ddab44',
+    'sha256-ungz' => '378a1ce777c2adfe86ecd737e9b4529bd45761673374e78e978961b5b6ca6dfb',
+    'size' => 26924
+  },
+  'Log-Any-Adapter-TAP-0.003003.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '0c9ef29444c2cb5ed260aa5a6a436d8d',
+    'mtime' => '2016-02-13',
+    'sha256' => 'a70d307ee39784ec88a2a7357d75eb4f56b7d8209e15290df645fb351acee8d2',
+    'size' => 940
+  },
+  'Log-Any-Adapter-TAP-0.003003.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c5fe31d8990f8ce06cc6a8fdc3feec58',
+    'md5-ungz' => '0412325939e23ad6860b5d5468cbfc85',
+    'mtime' => '2016-02-13',
+    'sha256' => '131f0689b2b42b1b31449714c6eda8f811dd96a7c86748f1e03b239cfd0121c0',
+    'sha256-ungz' => 'dd9c0a5678b15a836c32e61960f9d2307a50c814aa672a1aacdf345fdf0fefae',
+    'size' => 16314
+  },
+  'Log-Progress-0.12.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '435cafb3f049ee2a25798ce648f6fc21',
+    'mtime' => '2020-10-02',
+    'sha256' => 'f1f48beccf4257c19cb783ad239672f754271c47689382a0055dba57200baec8',
+    'size' => 1758
+  },
+  'Log-Progress-0.12.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '357cb48f5b0dbe6100b8790376805dba',
+    'md5-ungz' => '4224a411e8d0a2cf5c9ceee1313e2ba4',
+    'mtime' => '2020-10-02',
+    'sha256' => 'a1ccf521bca9233caa797411dddaf1f7cb001282f67b050e53404a739a29ec3d',
+    'sha256-ungz' => 'ad59054ebfee4073e3d945b8d6f4f556c7ce9a90414449cd9774bd9bc4f8e27f',
+    'size' => 20601
+  },
+  'Log-Progress-0.13.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'b0f5dc2a730f55657eaf27d65d085a11',
+    'mtime' => '2023-01-26',
+    'sha256' => '1ecfb107be7190c5786a76e8e27f2932abbcfe23acc9d6e826272a3c11c33db1',
+    'size' => 1917
+  },
+  'Log-Progress-0.13.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '9346a04bb34176f7435a392d62f1495d',
+    'md5-ungz' => '84eb9ccd06ddf1b73168b067ce7d2219',
+    'mtime' => '2023-01-26',
+    'sha256' => '46b359b17ed85ffa50e1d0b7e468e1bd9a951cfde0a20391add7f2b9e4971a22',
+    'sha256-ungz' => 'a4ee233c911158f1b86ec6a264d269869b02da7230d6d76aaeb03c5e409370e4',
+    'size' => 21001
+  },
+  'Math-3Space-0.003.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c68aeaabdeaa544419c468b7df7caf2e',
+    'mtime' => '2023-11-01',
+    'sha256' => 'e573db5fd53df2dd3aa2340c83ea0cca843ecfdd30a1871af0472ab396d74efe',
+    'size' => 1722
+  },
+  'Math-3Space-0.003.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '2a24a76885e2e61cf36e959f589eb2a8',
+    'md5-ungz' => 'a7a5f4ea2ab7fef1acb01521b26a258c',
+    'mtime' => '2023-11-01',
+    'sha256' => 'cab446256c838fac3c28a78c10c049eabd010cabecbea71f39df9e4d1c63bfb4',
+    'sha256-ungz' => 'e4a450b825b86ccd16b9701d804de2c65007cccc8aaadab25bad687138f7c5d1',
+    'size' => 147783
+  },
+  'Math-3Space-0.004.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd90a3c19f6cccbf497152c47fe612418',
+    'mtime' => '2024-09-30',
+    'sha256' => 'a1b5a604eb579026d50a2fba5c204f36b52067265bd4be526a7fee49c0182c8b',
+    'size' => 1786
+  },
+  'Math-3Space-0.004.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '8e02d3f345756d7c99c26c0b8604b05f',
+    'md5-ungz' => '526dc21e145f4b048f4f65be7dbdf5b9',
+    'mtime' => '2024-09-30',
+    'sha256' => '9bfdcf65ba895baa0ac9c377c14816d2adce5d782b8cb4044ef8f6b28bf1255a',
+    'sha256-ungz' => '3eb249daa8fb8d9b974c03a67d0946e00c3d4948d40425d415da005c98b3ce6d',
+    'size' => 154395
+  },
+  'Math-3Space-0.005.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd1eb88298404cbba880b6fe4626e7992',
+    'mtime' => '2024-10-05',
+    'sha256' => '9440fbf11589e3d27a6a7c2d1d6fd61847aefdefbd827c30f83656e5b30a8fa5',
+    'size' => 1975
+  },
+  'Math-3Space-0.005.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'ea2d0c121232dddc8f8ebdbef8730f65',
+    'md5-ungz' => 'ebadefc6ac1067c30cd681d449d0d733',
+    'mtime' => '2024-10-05',
+    'sha256' => '6107203616563716428a6813fa0d41ea4e902c75df68113387e8e8166f3efdb2',
+    'sha256-ungz' => 'f1b61ec18565069707f24dcb4159f121951a4224268a0e7c6b19cb3754a69d46',
+    'size' => 154768
+  },
+  'Math-3Space-0.006.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '5c7a12c65f3b9aa43098df72c2144d10',
+    'mtime' => '2024-10-07',
+    'sha256' => '48fed22efe6fbe2ab39772857747287a0e59642f17ec51493032c637861a2c74',
+    'size' => 1975
+  },
+  'Math-3Space-0.006.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'f36a1513a39a30c7a3534ae3016f9f4c',
+    'md5-ungz' => '45a92fa3df92bb2bafdfbe3276ddb2ec',
+    'mtime' => '2024-10-07',
+    'sha256' => 'daac38a809e98520a1ed173f935794aa9021644f180a82f069a3c94608c59508',
+    'sha256-ungz' => '6b3464fb4391f4b0e178cd7c913351653e06565cfb4b2ed3724a5559c4f0ac38',
+    'size' => 154730
+  },
+  'Math-3Space-0.007.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'e87fa0a7fbfde190efbaa7d2e72aa8ec',
+    'mtime' => '2024-10-07',
+    'sha256' => '728a5aa5f092b0065f7d93d3e1cb95d45dd4c898491b2d6486e31c217e13a04f',
+    'size' => 1975
+  },
+  'Math-3Space-0.007.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'eb793f5883b96e3a13e2ba8585c9a834',
+    'md5-ungz' => '85af0aeb34d614a12e825f4f899695eb',
+    'mtime' => '2024-10-07',
+    'sha256' => '751bcf27232fa19ebba575aa2d5aa81b806b4ca646c4ea05263ae90a7b81be37',
+    'sha256-ungz' => '5ad052ceefb9a17c9e8d1267331b47321899d452737be6eaf0b445760f01e3ee',
+    'size' => 154720
+  },
+  'Math-3Space-0.008.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c0438e587b6767fb6b724bbcc84edf57',
+    'mtime' => '2024-11-30',
+    'sha256' => '3c424a484e0b8bcc653d97dce1cbe11b35c935ce133d69fb0f44a3d037d24274',
+    'size' => 1975
+  },
+  'Math-3Space-0.008.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '04125f50ebf910c677d6597bf306813b',
+    'md5-ungz' => 'd55ea1e823893bbcf9456818afb9676f',
+    'mtime' => '2024-11-30',
+    'sha256' => '64020a691dff1b93a030609b744dd9e66cfdf84401401393b6e6fbd964ecf6d6',
+    'sha256-ungz' => 'b50c73d0e173e39780919e7f3a898d5e694936d7a0ff4a041f22e2e312b6ff9a',
+    'size' => 157041
+  },
+  'Math-InterpolationCompiler-0.002000.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '78bf6effcf57b2600c1b3afb9c26a14f',
+    'mtime' => '2015-03-24',
+    'sha256' => '771f77381f31be5e435a0b58de7d6a324333d656709d022a2277a511b05b4fda',
+    'size' => 954
+  },
+  'Math-InterpolationCompiler-0.002000.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'cbb5a4547960c4854c9c3e801261ffb2',
+    'md5-ungz' => '50b26c3b554cee9c8441f31c10cdb61f',
+    'mtime' => '2015-03-24',
+    'sha256' => '6680ca6b89d02717bcb21202fe692b4b8be75930d6d7bcc9e480fbab53b21741',
+    'sha256-ungz' => '956e6f7b8728fed492037f3090bc29bf1a8b393cee9b01cc7d8a69cb6e8d0bb2',
+    'size' => 13498
+  },
+  'Mock-Data-0.02.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c0f3049a669eff66679c105e1bb73793',
+    'mtime' => '2021-09-06',
+    'sha256' => 'e19cd43e4ea51626402dd79b33003bde3a6295d8636a99a0c7fe2bc8f3040d6d',
+    'size' => 2001
+  },
+  'Mock-Data-0.02.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'e2258bdf9dde16f20f2f546fbf00cb1f',
+    'md5-ungz' => '23f01f734c536c0f3241793190083928',
+    'mtime' => '2021-09-06',
+    'sha256' => 'cafa65ca7769d9f104ee4a7d83e76689faad18a645b9cb28fd2c0041f2490879',
+    'sha256-ungz' => 'a161d95d9e4ee6460821a945542ce794698954dada6ff12fffebe907e8f138a2',
+    'size' => 47499
+  },
+  'Mock-Data-0.03.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '2713399b5aa60e924f1691edbc9ea194',
+    'mtime' => '2021-09-25',
+    'sha256' => 'c963775778793e69a994dca4cbe0549df73f7fea7474b6641be8f6c7477c6d14',
+    'size' => 2040
+  },
+  'Mock-Data-0.03.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'e8d7b7d8eda6c4f2e124a6a6e249c6ae',
+    'md5-ungz' => 'cab3507e4afe45233f9ae4f38345564c',
+    'mtime' => '2021-09-25',
+    'sha256' => '1ee8bb9168263b2bdb1db51f2d9fd4bde53522df356aed529a172648747b6abe',
+    'sha256-ungz' => 'ad918dc7d65f360889a24b32a204310812eb080969034adb95334f01333ad067',
+    'size' => 57124
+  },
+  'Mock-Data-0.04.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '96d35c82b8d9e376790316fa88fdf533',
+    'mtime' => '2024-07-06',
+    'sha256' => '65cb5fbe7eb0379918fac40fedddf7a0673fdea0ec85050a9bc08616c1816c6b',
+    'size' => 2040
+  },
+  'Mock-Data-0.04.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '57a28b845f39bd2a622bb296c85e3401',
+    'md5-ungz' => 'b29c8b02fac574b689bd53089a7079ce',
+    'mtime' => '2024-07-06',
+    'sha256' => 'e6a86156304cb23bead5c245ae671bd2089c9a4722bf3d4266680f8daf8e0dfc',
+    'sha256-ungz' => 'ce60baf2d29705111c3d059b22b700a4beec5759994e4dfbe5a6dcfd0eb33406',
+    'size' => 57334
+  },
+  'OpenGL-Sandbox-0.110.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '71d4c5bbb4cacb76f65a4be8d437ed69',
+    'mtime' => '2019-02-07',
+    'sha256' => '5b5271404b5eff9f7b7225b201c72f190d446dddbbfb173a80ae2ed498515a24',
+    'size' => 2294
+  },
+  'OpenGL-Sandbox-0.110.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '945c2b2d85de446c55e911eb1da019cf',
+    'md5-ungz' => '5e0feab948e25d5f0b31b04164a2b90f',
+    'mtime' => '2019-02-07',
+    'sha256' => 'cd520f49eb39583342fdd0d1e023a8d14c075bdeb848511963a8cfa1b8a3f49d',
+    'sha256-ungz' => 'ba3b6ecfd876961e27ef2978b4d1bbdeb7aacccf6c11e5e8f882794fdc90b00a',
+    'size' => 96463
+  },
+  'OpenGL-Sandbox-0.120.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'bef60c417ace1130c4d6bca3c861b589',
+    'mtime' => '2019-02-08',
+    'sha256' => 'cb4a5ab99187997aee69e7416f62e6ccf6ba7873593b5016d54d7db4cff00ed4',
+    'size' => 2429
+  },
+  'OpenGL-Sandbox-0.120.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'dfd27bfd7b219efb91bb000d3bd6ebed',
+    'md5-ungz' => 'e9e06339c541986aaaffdeda3d679bff',
+    'mtime' => '2019-02-08',
+    'sha256' => '52c57d511a61c2ba3ee6abfba8cddab9e6424a854550b4c8ad5f577745920224',
+    'sha256-ungz' => 'c26e9201bd64caab63fbb7ac2b14403883e969b07f17c55d8bf95c9028a734d4',
+    'size' => 95653
+  },
+  'OpenGL-Sandbox-V1-0.02.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '0ea3e2d2b715ef6028d79c53b75d65b6',
+    'mtime' => '2018-06-18',
+    'sha256' => '03b4ebe6fd7d9a495f342431f7ad9d7abad6d50f4a3ba90d7d305792b661f631',
+    'size' => 2019
+  },
+  'OpenGL-Sandbox-V1-0.02.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'c789d995d28b93fcda33a4315983fb09',
+    'md5-ungz' => '10f241c0615116e87d7278a7181905ca',
+    'mtime' => '2018-06-18',
+    'sha256' => '340a82f9b91b4b2e956b6f4cca3e7e2a675426354080d8d4f012afe2f582bc0e',
+    'sha256-ungz' => '0e6049c3d8c96ac86854a767197f1c7007af5a2c25ae93635c4df6409f885ced',
+    'size' => 21679
+  },
+  'OpenGL-Sandbox-V1-0.03.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'a27ea0bd5bb4f9edeaa0ebfebb990b9a',
+    'mtime' => '2018-07-09',
+    'sha256' => 'd8f181f695c0b0e32fa7bc4c238e6548d502a77fb25744cf62a13e48f096ff30',
+    'size' => 1988
+  },
+  'OpenGL-Sandbox-V1-0.03.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'fed6e3a964b439d9987c163af9287d39',
+    'md5-ungz' => '6a9d29336d1d03d67aef9310b842b405',
+    'mtime' => '2018-07-09',
+    'sha256' => '7b5089df946afb9e6107628c808e0334c9bdf505e0e25044994b7a3d40de22f0',
+    'sha256-ungz' => 'bf1f03b49b0dc1a9da034883b15f5c426883b484f8f6c8a0a4332b1b3bc80dbf',
+    'size' => 97209
+  },
+  'OpenGL-Sandbox-V1-0.042.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'feb303a05ff6bc947a786db875a4303f',
+    'mtime' => '2019-01-09',
+    'sha256' => 'd72b98f3084c2a82519df4215fe46fab7e1d37ce2e36538667bd083063c4ab2c',
+    'size' => 2080
+  },
+  'OpenGL-Sandbox-V1-0.042.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '37878f94f8e614faa420300fed07d130',
+    'md5-ungz' => 'b582e7c8253b61b9bc0a21dbf4807205',
+    'mtime' => '2019-01-09',
+    'sha256' => 'e8669048659022b8d49fcb1b8e6211a2e6c9e13925ef90cf1f65d3f2501f652f',
+    'sha256-ungz' => '1262fa06b138b954f7073c263125456983989326b70993020dd02ab935a5d2ee',
+    'size' => 97740
+  },
+  'OpenGL-Sandbox-V1-FTGLFont-0.02.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '801b49bb7d5476e38f71297b0fbfa216',
+    'mtime' => '2018-06-18',
+    'sha256' => '8448a5a51ebb7c6744364e2acbb5239dd487d2179dd2ccf8225f0dde0fe34504',
+    'size' => 1855
+  },
+  'OpenGL-Sandbox-V1-FTGLFont-0.02.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '834d84e09b44362fde11bb28de341def',
+    'md5-ungz' => 'd62ab808a954bac4eb503bce8bf067aa',
+    'mtime' => '2018-06-18',
+    'sha256' => '2e881bd86c573c3057ea798dc3da231ce0461b41df4e6558533c45516f070157',
+    'sha256-ungz' => '6c7ae856fafb1764625feec202662d4ee8b34e5837ae7fab31cf88dddceab6bb',
+    'size' => 26494
+  },
+  'OpenGL-Sandbox-V1-FTGLFont-0.03.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '68b036d587dabd5f23a862eec1ce860b',
+    'mtime' => '2018-07-09',
+    'sha256' => '6d295f8cb97ea6077a504d3994c5ee48b9167f267fdffe917e80823f675cbb39',
+    'size' => 1852
+  },
+  'OpenGL-Sandbox-V1-FTGLFont-0.03.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '310fe4358455e00573f2dacf41d9cde2',
+    'md5-ungz' => '8610c6ba78cd7ad47020a5df5c381b4a',
+    'mtime' => '2018-07-09',
+    'sha256' => '50ade3fe56c560bb390140b9de1ee7362665ab1fa7977859d0400bb6b6032917',
+    'sha256-ungz' => 'efb65771cfb8a9f3bc405ec94324be033f9de18e568404193f9ddf4d72911797',
+    'size' => 98301
+  },
+  'OpenGL-Sandbox-V1-FTGLFont-0.042.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'b5c33328a578b34f233b4800629b1283',
+    'mtime' => '2019-01-09',
+    'sha256' => 'b264ee65e36f2419dc36fab34fccd27fb26a5b319ea30a448af1aa4fe2ac044b',
+    'size' => 2001
+  },
+  'OpenGL-Sandbox-V1-FTGLFont-0.042.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '7f65051090c4cbc2d80a98124553ae32',
+    'md5-ungz' => 'ad51263d62f72963a840072e69703b69',
+    'mtime' => '2019-01-09',
+    'sha256' => 'adb0f8947b7fae5fc492154640136134eb6c46e6621d4ca9fb524866f5b2cd09',
+    'sha256-ungz' => '584ca4931704ff969044716243b83b737835080dfdd481347029e26f50454d12',
+    'size' => 98505
+  },
+  'Proc-Background-1.22.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '168a951942c1aac87744a19f7305fffc',
+    'mtime' => '2021-07-10',
+    'sha256' => '58b8835f0d72430e31e587cb259a303a1a3ab0c26d335883194f2afd52969e77',
+    'size' => 1322
+  },
+  'Proc-Background-1.22.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'dccb1d6488315e1466947fea7a208a34',
+    'md5-ungz' => '7c392751f475ff1efd49d1bc626f23aa',
+    'mtime' => '2021-07-10',
+    'sha256' => 'aaacba024d1794fd769a595370e21807906a7add2b9494f11f1a102b06a0c171',
+    'sha256-ungz' => 'badc2664f4595414fa744d902cc8d54aef19b2e31893f34c9ecb204c61d757a3',
+    'size' => 26247
+  },
+  'Proc-Background-1.30.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '94077c5ebdaf3b2d1647e3fd116988f0',
+    'mtime' => '2021-10-21',
+    'sha256' => 'd39e4b96fa96ee7d77d088c3603a8320f2fb031ab6d1ed0c50618291f63da09f',
+    'size' => 1322
+  },
+  'Proc-Background-1.30.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '8d6a981e41fb78dd9028948f29d74e34',
+    'md5-ungz' => '7c7027299af10b27c1d1d3596c62ca8b',
+    'mtime' => '2021-10-21',
+    'sha256' => 'e654f6f3dfa0471c27fa8dd82b9a643df604cb9f464d78608dcc22f3d5aff7fe',
+    'sha256-ungz' => '9f0bab440ea83ba83f5a3dbdca56a945f23062387d2de11cce9494ba268934a8',
+    'size' => 32397
+  },
+  'Proc-Background-1.31.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '9dc6e462816b843a9d16d010a80dd698',
+    'mtime' => '2023-04-17',
+    'sha256' => 'd19c5588cff8ecab18fd7aeef8b94c55594cb3c9461f5746c2e47fb1f2f66136',
+    'size' => 1368
+  },
+  'Proc-Background-1.31.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '115562f5e851b96868006a5cdc427d50',
+    'md5-ungz' => '754b30f3cd1626dba775732b926c2756',
+    'mtime' => '2023-04-17',
+    'sha256' => 'eaa0bdb253e4e3061209d67a957fc04d3919b17fbfaba15ca608684469564aab',
+    'sha256-ungz' => '4a57d9a477b6be7d271b1358760a50a008a451a325369ff3c1fd672e17da14e4',
+    'size' => 33601
+  },
+  'Proc-Background-1.32.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'e5530d5d5657e81ac090730e5467e9a5',
+    'mtime' => '2023-04-22',
+    'sha256' => '3c8a222602b1538de075ca1896308068aa58895c943e6dba1d8e175d8fa307e9',
+    'size' => 1368
+  },
+  'Proc-Background-1.32.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '34e7b204eeb3f408b70f02f4ab7078e0',
+    'md5-ungz' => '30ccf5b1a8c7c679a2823b374968b0e0',
+    'mtime' => '2023-04-22',
+    'sha256' => '5b1a780ddb929ca42725eb90b518321425ff778b4a137f86fac95d9fb9cd2967',
+    'sha256-ungz' => '79b18047331b10e28bf0daaeaa7228e674df1a56c01e393b5069a6ead17a5f7f',
+    'size' => 33622
+  },
+  'Spreadsheet-ExcelTableReader-0.000001_003.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '8fa8583f0dd34c969113a01a31d6f38e',
+    'md5-ungz' => 'c0b6206f15345e895f03590bb362715d',
+    'mtime' => '2016-02-10',
+    'sha256' => '7e918287db1de7de13f5fcedf11618bbd401c21b8375d91ddc487b4c8677b9c9',
+    'sha256-ungz' => '96d84b6c3cd15d619871e2242545a06d38fbe6cc1864dcefc809f2b3cf413c67',
+    'size' => 33199
+  },
+  'Template-Plugin-AutoDate-0.90.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '3b8fb46127a48966e04524563cd38855',
+    'mtime' => '2021-08-13',
+    'sha256' => '73544876bbe75e248fccfa4c6332c68617c46078259515568656c4bb6ef951f7',
+    'size' => 1930
+  },
+  'Template-Plugin-AutoDate-0.90.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '9568905446cfd0a4f32202e296836fc6',
+    'md5-ungz' => '05a65ab8fe9e08ed8dbe0e762ec404cf',
+    'mtime' => '2021-08-13',
+    'sha256' => '3a896a240ca4782a4f758babc85b6dcd621d7511cdea67d8b46e4c822c9036d3',
+    'sha256-ungz' => '000f812eae3d97fe0bee2516c0ed9532df1ad86eb184062c66450aa90de2becb',
+    'size' => 12219
+  },
+  'Tree-RB-XS-0.07.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '6c118611fc70d52cea83b4715d2515d6',
+    'mtime' => '2022-06-04',
+    'sha256' => '0357b4bf8cfd44e4c84437864795a4f65ca0b60beeebdd0d8ad61577390069a6',
+    'size' => 1799
+  },
+  'Tree-RB-XS-0.07.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '452c60e65103105925a17f9f57a1d69d',
+    'md5-ungz' => 'fe42030e7f2dc3a4254c91ae0e0c736f',
+    'mtime' => '2022-06-04',
+    'sha256' => '62550a71b39913f6b6fe82b306cb4c8261eb3ccf189f231c596a92e0c946930d',
+    'sha256-ungz' => '38470fc888dc9a3c3d1580bbf8a0d95cbf5c68abda87e42b3b8438e63f84b241',
+    'size' => 178628
+  },
+  'Tree-RB-XS-0.14.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '5e165bba9c6269487a7752fcd12966c4',
+    'mtime' => '2024-08-18',
+    'sha256' => 'ddc5791b4eaa474ff119e122f97914964c2edfc26e90dfb6de92750a45d137b4',
+    'size' => 1946
+  },
+  'Tree-RB-XS-0.14.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '504341f822cfc8fcf8e563c068b8378b',
+    'md5-ungz' => 'cbbcdeb253bd7ed7d9cf8b3caaf9bd94',
+    'mtime' => '2024-08-18',
+    'sha256' => 'b5c5c3d7055de1d0a4d02c90c957fb067f9cf206b274a03e7735a91426ab67e7',
+    'sha256-ungz' => 'a4df7e09640709dde84680a3f178657ad238c4c656be82b7a66e7b1d588ee899',
+    'size' => 199856
+  },
+  'Tree-RB-XS-0.17.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '09f99dcf0236cf555852844ff42e6a85',
+    'mtime' => '2024-12-30',
+    'sha256' => '8dd51ffce0b8dba644c3c18822ba60e22228a4e72cdc0e701d91b0a04c5ae2d2',
+    'size' => 1946
+  },
+  'Tree-RB-XS-0.17.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'dff9f41642a11c0929b5d9c702fd14e4',
+    'md5-ungz' => '0306430a35a82f862bbb0b233d056d5a',
+    'mtime' => '2024-12-30',
+    'sha256' => 'b42d79bc85a65152cc8739d09edc4e07743840886069b5b30919f6af013cdeef',
+    'sha256-ungz' => 'e03b9b0c9d3bf75571a7a83037147a4b3039fc124e1ca93b38c6a32d23a5a4ab',
+    'size' => 203615
+  },
+  'VideoLAN-LibVLC-0.05.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '7f57cc0eef51f3f911c5d2d0ef312172',
+    'mtime' => '2019-11-05',
+    'sha256' => '9c3e725028d95f03e2ffb085d2d41709bd476d557039f0f73f93cdb614e0d736',
+    'size' => 1900
+  },
+  'VideoLAN-LibVLC-0.05.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '37a5a830c14d06021583b70f305afb57',
+    'md5-ungz' => '40868bfccf1dd3a343e056ebb8d76e6b',
+    'mtime' => '2019-11-05',
+    'sha256' => 'fa8ebce51f28efa05fe64c8a0d33883b3b5351b2aada7a61993ff482ff9dcadd',
+    'sha256-ungz' => '6da4c98d32088d9e0b3edec2be419a81f0706cf54fae89ef4d7c8eb15bc3e827',
+    'size' => 113528
+  },
+  'VideoLAN-LibVLC-0.06.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '4010016561fec3e6b47d8221c0535436',
+    'mtime' => '2023-11-28',
+    'sha256' => 'ecc1e1ad4519c0bf787af6ce7d85848a71de0314fc53d764d3c595f597fbcf55',
+    'size' => 1963
+  },
+  'VideoLAN-LibVLC-0.06.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'e01565cf59bb2312248fcf50a49718f3',
+    'md5-ungz' => '43b2e89b39000ad718415ebde4a27e9a',
+    'mtime' => '2023-11-28',
+    'sha256' => 'de8305075539a37328c153fd1a5db8584508f6ef5b11412a8ab09b2b82c4f72d',
+    'sha256-ungz' => '31cd59d5f1ebe7a83c19cacebec1efbbd7df3f5e356809f6dcaf966b1f95b7b9',
+    'size' => 111070
+  },
+  'Win32-PowerShell-IPC-0.02.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '1d5c9d123c63c5bcff6d1d6cd0521bec',
+    'mtime' => '2017-09-29',
+    'sha256' => 'de2b18ee979d52fb6bed0c9b876b5ebb29b31c3bd5b4a7750785397a0b60156f',
+    'size' => 1828
+  },
+  'Win32-PowerShell-IPC-0.02.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'd95a5df83d955e855bfb5cbbda95606e',
+    'md5-ungz' => 'd1b9578bba61e529fbf69208614a62bd',
+    'mtime' => '2017-09-29',
+    'sha256' => '66b24a79ae9260b098442a32618034041872e2d2c2430ac728786b59b642ab63',
+    'sha256-ungz' => '3bd93ef373f5a1f8f435236dcbee7338c5acc45cbdbfe8984d3bc9d7bbac3ed3',
+    'size' => 16324
+  },
+  'X11-GLX-0.06.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'e4aaafe501986fcd339d8662be2399fd',
+    'mtime' => '2021-10-09',
+    'sha256' => '4c5e7a6a4fb7178e8f97d5a0766f44414d2d2302005218b936e128ad46d019c2',
+    'size' => 2154
+  },
+  'X11-GLX-0.06.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'f5e6e6c951589d427c62ccb1d0d8af5c',
+    'md5-ungz' => '53f05bfd765ce8ab6e2354cab4393a84',
+    'mtime' => '2021-10-09',
+    'sha256' => 'e1e090c76971922b1b80c9dcdcf3f97d5e31863871a7f28381b6f782a3a67530',
+    'sha256-ungz' => 'c1b40ee9fe926ec8b82abf85f6f689daad8293045fc2acbf2a6ee7dd1f41601a',
+    'size' => 78844
+  },
+  'X11-Xlib-0.24.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '495d7e653be8b437376c25ee039b35c4',
+    'mtime' => '2023-08-16',
+    'sha256' => '206d58aa83de46a3f5f325b0deb92816ab61597314ae3d5b5d333534a7384482',
+    'size' => 1491
+  },
+  'X11-Xlib-0.24.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '3450dd9704985a9a359acdd5cdb16707',
+    'md5-ungz' => '73dc3b19c675731969d4185bd0bab887',
+    'mtime' => '2023-08-16',
+    'sha256' => '7515aafc4380b6889d9498425cde2ad1000ebd0e9e5a14000346b62560af724c',
+    'sha256-ungz' => 'b2a30e2f195f0bfe8e6231887a344e740a11b2a0b7b4faf9737fbd91991c747f',
+    'size' => 141656
+  },
+  'X11-Xlib-0.25.meta' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => '820cdfc2de5e59ef0fa1715c2cbc7d47',
+    'mtime' => '2023-08-21',
+    'sha256' => '2546af5e703a607fcdc3eca1b544ca34e39356f002099a25179ab5861db03ae6',
+    'size' => 1491
+  },
+  'X11-Xlib-0.25.tar.gz' => {
+    'cpan_path' => 'N/NE/NERDVANA',
+    'md5' => 'f2193fae98098573611b549907cf0a09',
+    'md5-ungz' => 'dc1d1b5781bd95b2105a207e0b7d6cb5',
+    'mtime' => '2023-08-21',
+    'sha256' => '67270b96a9220e06ee768cf4b28be8cb2bff469ef7ec8344dcf7bd898809fa14',
+    'sha256-ungz' => '450c619564e823dd9da43e272a6efbdfed808649bf4e62607d3f763704d46807',
+    'size' => 229181
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEFmDJ58SskZU/SYByfFMCKkCtaxsFAmfGau0ACgkQfFMCKkCt
+axusvQ//UiFlnqihX+d7OTzvW0L+UO1+EJbUqZ4Oqg8h+zmSzlSgngxIJGJRZq1L
+Tul8DWsodla/tztnTWUCg4HQIqJh1i8UU6ZRi/cQqkcU6843Re5NexxykndajOm/
+eausBWs4Chfd8ZRdeeDH7ouIhEYyx84UXI5NidEloMzSkULQq8GL5UyNxqsLDj3z
+xO70xoIyknR+LObuydcQxg6QlxqN4B++EgQjUuRD2T8MjEf/x1eqK65VLKrLWizb
++/ZpHK1jC3sOAIdy6EiKNM21nD5UG1qOjQh266bRl7rhB8uSCAtQI4TDM6b2TsZ/
+VAVX7jGErdTf/yRjul38Ve+QdtRA6oCb2U7te+kiiBmmAofVYXXvlDtb0gA3/2AX
+B6RoSK8r7LszJrmGvAoyZAuUAM0/RWTYvXwYE9GxRdRxKB9jBLOFbLgg37PXX3TT
+uYpmJpdxbfHocJe4HMEFkrp7d5rRbYSqwYGlZPzzfSpTX5uNzpvBIYm12Ag+QPve
+Ae3MQHx1j1QEzmoFMCkepGvc0+GLvG0NjGKkYZwUdNDUR8xDkEvGuj2auVTyPUMq
+zv4a9GkqLY7c1TFXDGpsBce9GR9LBwUNbq2NTiz9V9Z95w58VaF+Qv2nxdfPYNIF
+yMwa23RPaJjmLAT8vUD464EdVFfcCQp/7GkMpyyITprM4ay5Oag=
+=3Lze
+-----END PGP SIGNATURE-----

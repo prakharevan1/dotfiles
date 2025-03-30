@@ -53,7 +53,7 @@ Videos/
 .viminfo
 .wget-hsts
 codelldb-linux-x64.vsix
-jsregexp/
+
 
 # Ignore Neovim plugin data (Lazy, Mason, etc.)
 .local/share/nvim/lazy/

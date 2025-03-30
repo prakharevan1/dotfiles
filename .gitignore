@@ -42,7 +42,6 @@ Videos/
 
 # Ignore system-specific logs and cache files
 *.log
-*.mdb
 
 # Development environment tools
 .cargo/
@@ -60,7 +59,7 @@ jsregexp/
 .local/share/nvim/lazy/
 .local/share/nvim/mason/
 .local/share/nvim/telescope_history
-
+.local/state/nvim/mason-registry-update
 
 # Ignore Neovim session and shada files
 .local/state/nvim/shada/
@@ -70,4 +69,4 @@ jsregexp/
 # Ignore logs
 .local/share/nvim/mason/packages/*/libexec/log/
 .bash_history
-
+*.mdb

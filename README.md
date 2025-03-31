@@ -20,3 +20,10 @@
 # Step 6. Check if it isnt all broken
 ## run "git status" in the home directory
 ## Then make a new branch for the laptop and push all the changes there
+## Btw since wsl stinks you need to add this to "/etc/wsl.conf"
+### (run sudo nano wsl.conf in etc so you can write to it)
+```
+[interop]
+appendWindowsPath=false
+```
+### What this does is that it disables sharing between drives so blink in the command line doesnt crash

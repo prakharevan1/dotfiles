@@ -106,4 +106,8 @@ Now go on to the next lesson.
     To ask for confirmation each time add 'c'
 ~~~ cmd
         :%s/old/new/gc
+~~~
+
+# Other stuff (afterward)
+1. "gcc" comments the entire line, and you can use motions (3gcc, 5gcc, etc)
 

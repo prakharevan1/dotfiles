@@ -108,8 +108,6 @@ Now go on to the next lesson.
         :%s/old/new/gc
 ~~~
 
-# Other stuff (afterward)
-1. "gcc" comments the entire line, and you can use motions (3gcc, 5gcc, etc)
 
 # Lesson 5 SUMMARY
 
@@ -131,3 +129,53 @@ Now go on to the next lesson.
  5. [:r !ls](:r!)                   reads the output of the ls command and
                              puts it below the cursor position.
 
+# Lesson 6 SUMMARY
+
+ 1. Type `o`{normal} to open a line BELOW the cursor and start Insert mode.
+    Type `O`{normal} to open a line ABOVE the cursor.
+
+ 2. Type `a`{normal} to insert text AFTER the cursor.
+    Type `A`{normal} to insert text after the end of the line.
+
+ 3. The `e`{normal} command moves to the end of a word.
+
+ 4. The `y`{normal} operator copies text, `p`{normal} pastes it.
+
+ 5. Typing a capital `R`{normal} enters Replace mode until `<Esc>`{normal} is
+    pressed.
+
+ 6. Typing "[:set](:set) xxx" sets the option "xxx". Some options are:
+
+        'ic' 'ignorecase'   ignore upper/lower case when searching
+        'is' 'incsearch'    show partial matches for a search phrase
+        'hls' 'hlsearch'    highlight all matching phrases
+
+    You can either use the long or the short option name.
+
+ 7. Prepend "no" to switch an option off:
+~~~ cmd
+        :set noic
+~~~
+ 8. Prepend "inv" to invert an option:
+~~~ cmd
+        :set invic
+~~~
+
+# Lesson 7 SUMMARY
+
+ 1. Type `:help`{vim}
+    or press `<F1>`{normal} or `<Help>`{normal} to open a help window.
+
+ 2. Type `:help TOPIC`{vim} to find help on TOPIC.
+
+ 3. Type `<C-w><C-w>`{normal} to jump to another window
+
+ 4. Type `:q`{vim} to close the help window
+
+ 5. Create an init.vim startup script to keep your preferred settings.
+
+ 6. While in command mode, press `<C-d>`{normal} to see possible completions.
+    Press `<Tab>`{normal} to use one completion.
+
+# Other stuff (afterward)
+1. "gcc" comments the entire line, and you can use motions (3gcc, 5gcc, etc)

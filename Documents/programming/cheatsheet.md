@@ -111,3 +111,23 @@ Now go on to the next lesson.
 # Other stuff (afterward)
 1. "gcc" comments the entire line, and you can use motions (3gcc, 5gcc, etc)
 
+# Lesson 5 SUMMARY
+
+ 1. [:!command](:!cmd) executes an external command.
+
+     Some useful examples are:
+     `:!ls `{vim}                   - shows a directory listing
+     `:!rm  FILENAME`{vim}          - removes file FILENAME
+
+ 2. [:w](:w) FILENAME              writes the current Neovim file to disk with
+                             name FILENAME.
+
+ 3. [v](v)  motion  :w FILENAME   saves the Visually selected lines in file
+                             FILENAME.
+
+ 4. [:r](:r) FILENAME              retrieves disk file FILENAME and puts it
+                             below the cursor position.
+
+ 5. [:r !ls](:r!)                   reads the output of the ls command and
+                             puts it below the cursor position.
+

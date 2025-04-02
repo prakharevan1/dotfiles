@@ -50,4 +50,6 @@ nvim () {
     command nvim "$@"
 }
 alias vim='nvim'
+alias neofetch="neofetch --ascii /home/evandagur/.config/neofetch/ascii.txt"
 PS1='\[\033[38;5;93m\]ドメインの拡大\[\033[0m\] \[\033[38;5;32m\]📂 \[\033[0;34m\]\w\[\033[0m\] \[\033[38;5;46m\]>_ \[\033[0m\]'
+neofetch

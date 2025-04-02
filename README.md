@@ -3,8 +3,7 @@
 ## Then, you need to install git lfs
 ## Run "sudo pacman -S git-lfs"
 # Step 2. Installing brew
-## Run "git clone https://aur.archlinux.org/brew-git.git"
-## Then, "cd brew" and "makepkg -si"
+## Go on their site and install it https://brew.sh, works on all linux distros LMAO
 # Step 3. Installing neovim
 ## Run "brew install nvim" (it should install version 10.4)
 ## Test it out with "nvim" in the cmd prompt
@@ -27,3 +26,4 @@
 appendWindowsPath=false
 ```
 ### What this does is that it disables sharing between drives so blink in the command line doesnt crash
+

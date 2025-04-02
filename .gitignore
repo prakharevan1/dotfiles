@@ -70,3 +70,6 @@ codelldb-linux-x64.vsix
 .local/share/nvim/mason/packages/*/libexec/log/
 .bash_history
 *.mdb
+.config/go/telemetry/
+.cpanm/latest-build
+.cpanm/latest-build

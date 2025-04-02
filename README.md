@@ -2,8 +2,8 @@
 ## Run "sudo pacman -S git" to install git
 ## Then, you need to install git lfs
 ## Run "sudo pacman -S git-lfs"
-# Step 2. Installing brew
-## Go on their site and install it https://brew.sh, works on all linux distros LMAO
+# Step 2. Get the correct version
+## Im currently using 0.11, just sudo pacman -S neovim it should install 0.11
 # Step 3. Installing neovim
 ## Run "brew install nvim" (it should install version 10.4)
 ## Test it out with "nvim" in the cmd prompt

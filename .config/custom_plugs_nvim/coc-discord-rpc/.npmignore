@@ -1,0 +1,11 @@
+.github/
+.husky/
+.yarn/
+src/
+
+tsup.config.ts
+.gitattributes
+tsconfig.json
+.prettierrc
+.yarnrc.yml
+*.tgz

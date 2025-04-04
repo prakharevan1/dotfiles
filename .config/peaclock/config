@@ -1,0 +1,4 @@
+style date blue
+style active-fg blue
+style colon-fg blue
+set hour-24 off

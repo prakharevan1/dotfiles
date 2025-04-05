@@ -89,6 +89,8 @@ OMB_USE_SUDO=true
 # Add wisely, as too many completions slow down shell startup.
 completions=(
   git
+  composer
+  ssh
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
@@ -151,7 +153,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$(npm bin -g)"
 export PATH="/home/evandagur/codelldb-v1.11.4/adapter:$PATH"
 export PATH="$HOME/bin:$PATH"
-
+	
 nvim () {
     # Check if socat is running
     pidof socat > /dev/null 2>&1 || {
@@ -163,4 +165,8 @@ nvim () {
     # Now run Neovim
     command nvim "$@"
 }
-
+alias vim='nvim'
+alias neofetch="neofetch --ascii /home/evandagur/.config/neofetch/ascii.txt"
+alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt"
+alias clock="peaclock"
+alias matrix='cmatrix -C blue -u 6'

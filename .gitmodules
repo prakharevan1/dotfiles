@@ -4,6 +4,3 @@
 [submodule "Documents/programming/learn-to-code-with-rust"]
 	path = Documents/programming/learn-to-code-with-rust
 	url = git@github.com:prakharevan1/rust_course.git
-[submodule ".oh-my-bash"]
-	path = .oh-my-bash
-	url = git@github.com:ohmybash/oh-my-bash.git

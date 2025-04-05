@@ -54,6 +54,7 @@ Videos/
 .viminfo
 .wget-hsts
 codelldb-linux-x64.vsix
+*.pyc
 
 
 # Ignore Neovim plugin data (Lazy, Mason, etc.)

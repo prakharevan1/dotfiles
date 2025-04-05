@@ -42,6 +42,7 @@ Videos/
 
 # Ignore system-specific logs and cache files
 *.log
+.config/peaclock/history/command
 
 # Development environment tools
 .cargo/
@@ -73,3 +74,4 @@ codelldb-linux-x64.vsix
 .config/go/telemetry/
 .cpanm/latest-build
 .cpanm/latest-build
+.local/share/nvim/mason/packages/codelldb/extension/lldb/lib/python3.12/encodings/__pycache__/

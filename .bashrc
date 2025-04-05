@@ -168,5 +168,5 @@ nvim () {
 alias vim='nvim'
 alias neofetch="neofetch --ascii /home/evandagur/.config/neofetch/ascii.txt"
 alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt"
-alias clock="peaclock"
+alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias matrix='cmatrix -C blue -u 6'

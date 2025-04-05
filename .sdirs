@@ -1,0 +1,3 @@
+export DIR_nvim_config="$HOME/.config/nvim/lua"
+export DIR_rust_course="$HOME/Documents/programming/learn-to-code-with-rust"
+export DIR_projects="$HOME/Documents/programming/projects"

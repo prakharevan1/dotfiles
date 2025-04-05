@@ -89,8 +89,6 @@ OMB_USE_SUDO=true
 # Add wisely, as too many completions slow down shell startup.
 completions=(
   git
-  composer
-  ssh
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
@@ -165,8 +163,23 @@ nvim () {
     # Now run Neovim
     command nvim "$@"
 }
+
+# Function to list saved directories
+list_bashmarks() {
+    # Ensure the file exists
+    if [ -f ~/.sdirs ]; then
+        # Source the .sdirs file (if it's meant to be sourced)
+        source ~/.sdirs
+        
+        # List environment variables starting with DIR_ and extract their names
+        env | grep "^DIR_" | cut -c5- | sort | cut -f1 -d "="
+    else
+        echo "No saved directories found. Please check your .sdirs file."
+    fi
+}
 alias vim='nvim'
 alias neofetch="neofetch --ascii /home/evandagur/.config/neofetch/ascii.txt"
 alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt"
 alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias matrix='cmatrix -C blue -u 6'
+alias lb='list_bashmarks'

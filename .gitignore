@@ -43,7 +43,7 @@ Videos/
 # Ignore system-specific logs and cache files
 *.log
 .config/peaclock/history/command
-
+.local/share/zoxide/
 # Development environment tools
 .cargo/
 .pyenv/

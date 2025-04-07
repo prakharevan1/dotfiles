@@ -177,9 +177,30 @@ list_bashmarks() {
         echo "No saved directories found. Please check your .sdirs file."
     fi
 }
+
+yazi-cd() {
+  local tmp="$(mktemp)"
+  yazi "$@" --cwd-file="$tmp"
+  if [ -f "$tmp" ]; then
+    local dir
+    dir="$(cat "$tmp")"
+    rm -f "$tmp"
+    if [ -d "$dir" ]; then
+      cd "$dir"
+    fi
+  fi
+}
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+# zoxide
+eval "$(zoxide init bash)"
+
 alias vim='nvim'
 alias neofetch="neofetch --ascii /home/evandagur/.config/neofetch/ascii.txt"
 alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt"
 alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias matrix='cmatrix -C blue -u 6'
 alias lb='list_bashmarks'
+
+export EDITOR=nvim
+export VISUAL=nvim

@@ -1,6 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
     - /home/evandagur
+    - /home/evandagur/Documents/programming/learn-to-code-with-rust
     - /home/evandagur/.config/nvim
 startuppopupversion: 5
 lastversion: 0.48.0

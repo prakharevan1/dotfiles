@@ -197,7 +197,7 @@ eval "$(zoxide init bash)"
 
 alias vim='nvim'
 alias neofetch="neofetch --ascii /home/evandagur/.config/neofetch/ascii.txt"
-alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt"
+alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt --color blue --logo-color-1 blue"
 alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias matrix='cmatrix -C blue -u 6'
 alias lb='list_bashmarks'

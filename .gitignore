@@ -76,3 +76,16 @@ codelldb-linux-x64.vsix
 .cpanm/latest-build
 .cpanm/latest-build
 .local/share/nvim/mason/packages/codelldb/extension/lldb/lib/python3.12/encodings/__pycache__/
+
+# Random junk?
+bin/chezmoi
+.local/state/lazygit/state.yml
+.zsh_history
+.zcompdump-evanlaptop-5.9.zwc
+.zcompdump
+.zcompdump-evanlaptop-5.9
+.local/share/Trash/
+.local/state/lazygit/state.yml
+.histfile
+.config/chezmoi/
+.oh-my-zsh/

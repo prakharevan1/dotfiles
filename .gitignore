@@ -89,3 +89,5 @@ bin/chezmoi
 .histfile
 .config/chezmoi/
 .oh-my-zsh/
+.osh-update
+.local/state/nvim/lazy/readme/doc/

@@ -167,6 +167,7 @@ alias fastfetch="fastfetch -l /home/evandagur/.config/neofetch/ascii.txt --color
 alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias matrix='cmatrix -C blue -u 6'
 alias lb='list_bashmarks'
+alias clock='tty-clock -c -C 4 -r -n'
 
 ### Editor
 export EDITOR=nvim

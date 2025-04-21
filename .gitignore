@@ -55,6 +55,7 @@ Videos/
 .wget-hsts
 codelldb-linux-x64.vsix
 *.pyc
+/home/evandagur/.config/evcxr/history.txt
 
 
 # Ignore Neovim plugin data (Lazy, Mason, etc.)
@@ -91,3 +92,4 @@ bin/chezmoi
 .oh-my-zsh/
 .osh-update
 .local/state/nvim/lazy/readme/doc/
+.config/evcxr/history.txt
